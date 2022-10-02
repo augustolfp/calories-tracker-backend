@@ -76,5 +76,6 @@ model TacoTable {
   carbUnit String
   fats Float
   fatUnit String
+  kcals Float
   @@map("tacoTable")
 }
