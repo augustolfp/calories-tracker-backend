@@ -10,6 +10,5 @@ export default function errorHandlerMW(
     if (message === 'Email already used') return 403;
     return 400;
   }
-
   return res.status(errorMessageToStatusCode(err.message)).send(err.message);
 }
