@@ -7,3 +7,7 @@ export async function create(meal: IMealData, countedDayId: number) {
   await countedDaysMealsRepo.linkMealToCountedDay(countedDayId, newMeal.id);
   return 'Refeição cadastrada com sucesso!';
 }
+
+export async function getMealById(mealdId: number) {
+  return await mealRepo.getMealStatsById(mealdId);
+}

@@ -13,4 +13,6 @@ mealRouter.post(
   mealController.createMeal
 );
 
+mealRouter.get('/get-meal/:id', tokenValidationMW, mealController.getMealById);
+
 export default mealRouter;
