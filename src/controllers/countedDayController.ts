@@ -11,3 +11,10 @@ export async function addDay(req: Request, res: Response) {
   });
   return res.status(201).send(result);
 }
+
+export async function getDaysFromUser(req: Request, res: Response) {
+  const userId = res.locals.userData.userId;
+
+  const result = await countedDayService.getDaysSummarizedData(userId);
+  return res.status(200).send(result);
+}

@@ -10,4 +10,10 @@ countedDayRouter.post(
   countedDayController.addDay
 );
 
+countedDayRouter.get(
+  '/get-days-data',
+  tokenValidationMW,
+  countedDayController.getDaysFromUser
+);
+
 export default countedDayRouter;

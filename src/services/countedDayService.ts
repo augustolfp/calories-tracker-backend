@@ -4,3 +4,7 @@ import { ICountedDayData } from '../types/countedDayType';
 export async function addDay(countedDay: ICountedDayData) {
   return await countedDayRepo.addDay(countedDay);
 }
+
+export async function getDaysSummarizedData(userId: number) {
+  return await countedDayRepo.getDaysSummarizedData(userId);
+}
