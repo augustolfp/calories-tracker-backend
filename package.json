@@ -9,7 +9,7 @@
   "scripts": {
     "prisma-test": "dotenv -e .env.test prisma migrate reset",
     "test:integration": "npm run prisma-test && dotenv -e .env.test jest --no-cache",
-    "dev": "nodemon src/app.ts",
+    "dev": "nodemon src/server.ts",
     "lint": "eslint . --ext .ts"
   },
   "repository": {
