@@ -3,6 +3,7 @@ import { prisma } from '../../src/config/database';
 import app from '../../src/app';
 import * as scenarios from './factories/scenarioFactory';
 import * as userFactory from './factories/userFactory';
+import * as tokenFactory from './factories/tokenFactory';
 
 afterAll(async () => {
   await prisma.$disconnect();
@@ -51,11 +52,56 @@ describe('Tests POST /sign-up Endpoint', () => {
 });
 
 describe('Tests POST /sign-in Endpoint', () => {
-  it.todo('Should return an error if submitted user format is invalid');
-  it.todo('Should return the same error for wrong email and/or wrong password');
-  it.todo(
-    'Should return a success status code and a valid JWT token if user input is valid'
-  );
+  it('Should return an error if submitted user format is invalid', async () => {
+    const user = await userFactory.insertUserOnDB();
+    const noEmailResult = await server.post('/sign-in').send({
+      password: user.password
+    });
+
+    const noPasswordResult = await server.post('/sign-in').send({
+      email: user.email
+    });
+
+    expect(noEmailResult.status).toBe(400);
+    expect(noPasswordResult.status).toBe(400);
+  });
+
+  it('Should return the same error for wrong email and/or wrong password', async () => {
+    const wrongUser = await userFactory.createUser();
+    const user = await userFactory.insertUserOnDB();
+
+    const wrongEmailResult = await server.post('/sign-in').send({
+      email: wrongUser.email,
+      password: user.password
+    });
+
+    const wrongPassResult = await server.post('/sign-in').send({
+      email: user.email,
+      password: wrongUser.password
+    });
+
+    const wrongEmailAndPassResult = await server.post('/sign-in').send({
+      email: wrongUser.email,
+      password: wrongUser.password
+    });
+
+    expect(wrongEmailAndPassResult.status).toBe(401);
+    expect(wrongEmailAndPassResult.body).toBeInstanceOf(wrongEmailResult.body);
+    expect(wrongEmailAndPassResult.body).toBeInstanceOf(wrongPassResult.body);
+  });
+
+  it('Should return a success status code and a valid JWT token if user input is valid', async () => {
+    const user = await userFactory.insertUserOnDB();
+
+    const result = await server.post('/sign-in').send({
+      email: user.email,
+      password: user.password
+    });
+    const tokenCheck = tokenFactory.validateToken(result.body.token, user);
+
+    expect(result.status).toBe(201);
+    expect(tokenCheck).toBe(true);
+  });
 });
 
 describe('Tests POST /add-counted-day Endpoint', () => {
