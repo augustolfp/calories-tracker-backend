@@ -4,6 +4,7 @@ import app from '../../src/app';
 import * as scenarios from './factories/scenarioFactory';
 import * as userFactory from './factories/userFactory';
 import * as tokenFactory from './factories/tokenFactory';
+import * as dayFactory from './factories/dayFactory';
 
 afterAll(async () => {
   await prisma.$disconnect();
@@ -105,13 +106,66 @@ describe('Tests POST /sign-in Endpoint', () => {
 });
 
 describe('Tests POST /add-counted-day Endpoint', () => {
-  it.todo('Should return an error if Auth header is not provided');
-  it.todo('Should return an error if date in body not properly formatted');
-  it.todo('Should allow user to insert day with no notes');
-  it.todo('Should return an error if selected day already exists for the user');
-  it.todo(
-    'Should return a success status code if user input is valid, and it must be saved on DB'
-  );
+  it('Should return an error if Auth header is not provided', async () => {
+    const countedDay = await dayFactory.createDay();
+
+    const result = await server.post('/add-counted-day').send(countedDay);
+
+    expect(result.status).toBe(401);
+  });
+
+  it('Should return an error if date in body not properly formatted', async () => {
+    const { authHeader } = await scenarios.loggedUser();
+    const countedDay = await dayFactory.createDay();
+
+    const result = await server
+      .post('/add-counted-day')
+      .set('Authorization', authHeader)
+      .send({
+        ...countedDay,
+        date: '32/13/2021'
+      });
+
+    expect(result.status).toBe(400);
+  });
+  it('Should allow user to insert day with no notes', async () => {
+    const { authHeader } = await scenarios.loggedUser();
+    const countedDay = await dayFactory.createDay();
+
+    const result = await server
+      .post('/add-counted-day')
+      .set('Authorization', authHeader)
+      .send({
+        ...countedDay,
+        notes: ''
+      });
+
+    expect(result.status).toBe(201);
+  });
+  it('Should return an error if selected day already exists for the user', async () => {
+    const { authHeader, user } = await scenarios.loggedUser();
+    const insertDay = await dayFactory.insertRandomDayOnDB(user.id);
+
+    const result = await server
+      .post('/add-counted-day')
+      .set('Authorization', authHeader)
+      .send({
+        day: insertDay.day,
+        notes: insertDay.notes
+      });
+
+    expect(result.status).toBe(409);
+  });
+  it('Should return a success status code if user input is valid, and it must be saved on DB', async () => {
+    const { authHeader } = await scenarios.loggedUser();
+    const countedDay = await dayFactory.createDay();
+    const result = await server
+      .post('/add-counted-day')
+      .set('Authorization', authHeader)
+      .send(countedDay);
+
+    expect(result.status).toBe(201);
+  });
 });
 
 describe('Tests GET /get-days-data Endpoint', () => {

@@ -17,3 +17,20 @@ export function validateToken(token: string, user: Users) {
   }
   return false;
 }
+
+export function createToken(user: Users) {
+  const token = jwt.sign(
+    {
+      email: user.email,
+      name: user.name,
+      userId: user.id
+    },
+    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+    process.env.JWT_SECRET!,
+    {
+      expiresIn: '1h'
+    }
+  );
+
+  return token;
+}
