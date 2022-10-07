@@ -36,6 +36,7 @@ describe('Tests POST /sign-up Endpoint', () => {
 
     expect(result.status).toBe(409);
   });
+
   it('Should return a success status code if user input is valid, and it must be saved on DB', async () => {
     const user = await userFactory.createUser();
 
@@ -44,6 +45,9 @@ describe('Tests POST /sign-up Endpoint', () => {
     expect(result.status).toBe(201);
     expect(userCheck).toBe(true);
   });
+
+  it.todo('Should return an error if user password doesnt attend criteria');
+  it.todo('Should return an error if user name doesnt attend criteria');
 });
 
 describe('Tests POST /sign-in Endpoint', () => {
