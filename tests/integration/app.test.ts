@@ -1,17 +1,49 @@
 import supertest from 'supertest';
 import { prisma } from '../../src/config/database';
 import app from '../../src/app';
+import * as scenarios from './factories/scenarioFactory';
+import * as userFactory from './factories/userFactory';
 
 afterAll(async () => {
   await prisma.$disconnect();
 });
 
+beforeEach(async () => {
+  await scenarios.deleteDbData();
+});
+
+const server = supertest(app);
+
 describe('Tests POST /sign-up Endpoint', () => {
-  it.todo('Should return an error if submitted user format is invalid');
-  it.todo('Should return an error if user already exists');
-  it.todo(
-    'Should return a success status code if user input is valid, and it must be saved on DB'
-  );
+  it('Should return an error if submitted email format is invalid', async () => {
+    const user = await userFactory.createUser();
+    const result = await server.post('/sign-up').send({
+      ...user,
+      email: '@gmail.com'
+    });
+
+    expect(result.status).toBe(422);
+  });
+
+  it('Should return an error if user email already exists', async () => {
+    const user = await userFactory.createUser();
+    const randomUserInsert = await userFactory.insertUserOnDB();
+    const result = await server.post('/sign-up').send({
+      name: user.name,
+      email: randomUserInsert.email,
+      password: user.password
+    });
+
+    expect(result.status).toBe(409);
+  });
+  it('Should return a success status code if user input is valid, and it must be saved on DB', async () => {
+    const user = await userFactory.createUser();
+
+    const result = await server.post('/sign-up').send(user);
+    const userCheck = await userFactory.checkUserOnDB(user);
+    expect(result.status).toBe(201);
+    expect(userCheck).toBe(true);
+  });
 });
 
 describe('Tests POST /sign-in Endpoint', () => {
