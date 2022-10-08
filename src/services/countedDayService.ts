@@ -8,7 +8,3 @@ export async function addDay(countedDay: ICountedDayData) {
 export async function getDaysSummarizedData(userId: number) {
   return await countedDayRepo.getDaysSummarizedData(userId);
 }
-
-export async function getDayById(dayId: number) {
-  return await countedDayRepo.getDayById(dayId);
-}

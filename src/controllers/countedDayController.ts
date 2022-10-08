@@ -18,11 +18,3 @@ export async function getDaysFromUser(req: Request, res: Response) {
   const result = await countedDayService.getDaysSummarizedData(userId);
   return res.status(200).send(result);
 }
-
-export async function getDayCompleteData(req: Request, res: Response) {
-  const dayId = Number(req.params.dayid);
-
-  const result = await countedDayService.getDayById(dayId);
-
-  return res.status(200).send(result);
-}
