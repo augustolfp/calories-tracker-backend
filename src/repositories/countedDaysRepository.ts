@@ -36,3 +36,23 @@ export async function getDaysSummarizedData(userId: number) {
     GROUP BY cdays.id
   `;
 }
+
+export async function getDayById(dayId: number) {
+  return await prisma.$queryRaw`
+    SELECT
+		  meals.id AS "mealId",
+		  meals."countedDayId" AS "countedDayId",
+		  meals.name AS "mealName",
+		  meals.description AS "mealDescription",
+		  meals."createdAt" AS "mealCreationDate",
+		  SUM (ing."carbsInGrams") AS carbs,
+		  SUM (ing."fatsInGrams") AS fats,
+		  SUM (ing."proteinsInGrams") AS proteins,
+		  SUM (ing.kcals) AS kcals,
+		  json_agg(row_to_json(ing)) AS "ingredientList"
+	  FROM meals
+	  	JOIN ingredients ing ON ing."mealId" = meals.id
+	  WHERE meals."countedDayId" = ${dayId}
+	  GROUP BY meals.id
+    `;
+}

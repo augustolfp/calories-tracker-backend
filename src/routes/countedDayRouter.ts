@@ -16,4 +16,10 @@ countedDayRouter.get(
   countedDayController.getDaysFromUser
 );
 
+countedDayRouter.get(
+  '/get-day/:dayid',
+  tokenValidationMW,
+  countedDayController.getDayCompleteData
+);
+
 export default countedDayRouter;
