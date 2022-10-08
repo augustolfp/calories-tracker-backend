@@ -16,7 +16,8 @@ export async function getDaysSummarizedData(userId: number) {
           SUM (ing."carbsInGrams") AS carbs,
           SUM (ing."fatsInGrams") AS fats,
           SUM (ing."proteinsInGrams") AS proteins,
-          SUM (ing.kcals) AS kcals
+          SUM (ing.kcals) AS kcals,
+          json_agg(row_to_json(ing)) AS "ingredientList"
         FROM meals
           JOIN ingredients ing ON ing."mealId" = meals.id
         WHERE meals."countedDayId" IN (
@@ -30,7 +31,8 @@ export async function getDaysSummarizedData(userId: number) {
       SUM (rdmeals.carbs) AS carbs,
       SUM (rdmeals.fats) AS fats,
       SUM (rdmeals.proteins) AS proteins,
-      SUM (rdmeals.kcals) AS kcals
+      SUM (rdmeals.kcals) AS kcals,
+      json_agg(row_to_json(rdmeals)) AS "dayMeals"
     FROM resumed_day_meals rdmeals
       JOIN "countedDays" cdays ON cdays.id = rdmeals."countedDayId"
     GROUP BY cdays.id
