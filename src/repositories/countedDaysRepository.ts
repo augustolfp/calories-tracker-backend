@@ -13,6 +13,9 @@ export async function getDaysSummarizedData(userId: number) {
         SELECT
           meals.id AS "mealId",
           meals."countedDayId" AS "countedDayId",
+          meals.name AS "mealName",
+          meals.description AS "mealDescription",
+          meals."createdAt" AS "mealCreationDate",
           SUM (ing."carbsInGrams") AS carbs,
           SUM (ing."fatsInGrams") AS fats,
           SUM (ing."proteinsInGrams") AS proteins,
