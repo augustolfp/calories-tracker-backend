@@ -51,6 +51,8 @@ model CountedDays {
   notes String
   user Users @relation(fields: [userId], references: [id])
   userId Int
+  caloriesTarget Int
+  proteinsTarget Int
   meals Meals[]
   @@map("countedDays")
 }
