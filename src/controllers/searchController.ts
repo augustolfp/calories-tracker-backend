@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import * as tacoTableService from '../services/tacoTableService';
 
 export async function search(req: Request, res: Response) {
-  const term: string = req.body.term;
+  const term: string = req.params.term;
 
   const result = await tacoTableService.search(term);
 
