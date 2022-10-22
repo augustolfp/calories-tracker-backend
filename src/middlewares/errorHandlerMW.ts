@@ -4,10 +4,14 @@ export default function errorHandlerMW(
   err: Error,
   req: Request,
   res: Response,
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   next: NextFunction
 ) {
   function errorMessageToStatusCode(message?: string) {
-    if (message === 'Email already used') return 403;
+    if (message === 'Email já cadastrado') return 403;
+    if (message === 'Credenciais inválidas') return 401;
+    if (message === 'Formato de token inválido') return 401;
+    if (message === 'Token inválido') return 401;
     return 400;
   }
   return res.status(errorMessageToStatusCode(err.message)).send(err.message);

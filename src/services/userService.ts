@@ -7,7 +7,7 @@ export async function create(userData: IUserData) {
   const emailCheck = await userRepo.getUserByEmail(userData.email);
 
   if (emailCheck?.email) {
-    throw Error('Email already used');
+    throw Error('Email já cadastrado');
   }
 
   const passwordHash = bcrypt.hashSync(userData.password, 10);
@@ -25,11 +25,11 @@ export async function login(loginUserData: ILoginUserData) {
   const getUser = await userRepo.getUserByEmail(loginUserData.email);
 
   if (!getUser?.email) {
-    throw Error('Wrong credentials');
+    throw Error('Credenciais inválidas');
   }
 
   if (!bcrypt.compareSync(loginUserData.password, getUser.password)) {
-    throw Error('Wrong credentials');
+    throw Error('Credenciais inválidas');
   }
 
   const token = jwt.sign(

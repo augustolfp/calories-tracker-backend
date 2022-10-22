@@ -12,7 +12,7 @@ export default function tokenValidationMW(
   const token = authorization?.replace('Bearer ', '');
 
   if (!token) {
-    return res.status(401).send('Formato de token inválido!');
+    throw Error('Formato de token inválido');
   }
 
   try {
@@ -20,6 +20,6 @@ export default function tokenValidationMW(
     res.locals.userData = tokenEmbeddedData;
     next();
   } catch (error) {
-    return res.status(401).send('Token inválido!');
+    throw Error('Token inválido');
   }
 }
