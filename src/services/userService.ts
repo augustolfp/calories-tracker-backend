@@ -45,5 +45,5 @@ export async function login(loginUserData: ILoginUserData) {
     }
   );
 
-  return { token, name: getUser.name };
+  return { token, name: getUser.name, id: getUser.id };
 }
