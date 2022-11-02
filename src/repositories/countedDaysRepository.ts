@@ -10,34 +10,62 @@ export async function addDay(countedDay: ICountedDayData) {
 export async function getDaysSummarizedData(userId: number) {
   return await prisma.$queryRaw`
       WITH resumed_day_meals AS (
-        SELECT
-          meals.id AS "mealId",
-          meals."countedDayId" AS "countedDayId",
-          meals.name AS "mealName",
-          meals.description AS "mealDescription",
-          meals."createdAt" AS "mealCreationDate",
-          SUM (ing."carbsInGrams") AS carbs,
-          SUM (ing."fatsInGrams") AS fats,
-          SUM (ing."proteinsInGrams") AS proteins,
-          SUM (ing.kcals) AS kcals,
-          json_agg(row_to_json(ing)) AS "ingredientList"
-        FROM meals
-          LEFT JOIN ingredients ing ON meals.id =ing."mealId"
-        WHERE meals."countedDayId" IN (
-        SELECT cdays.id FROM "countedDays" cdays WHERE cdays."userId" = ${userId}
-        )
-        GROUP BY meals.id
-	    )
-	
-    SELECT
-      cdays.*,
-      SUM (rdmeals.carbs) AS carbs,
-      SUM (rdmeals.fats) AS fats,
-      SUM (rdmeals.proteins) AS proteins,
-      SUM (rdmeals.kcals) AS kcals,
-      json_agg(row_to_json(rdmeals)) AS "dayMeals"
-    FROM resumed_day_meals rdmeals
-      RIGHT JOIN "countedDays" cdays ON rdmeals."countedDayId" = cdays.id
-    GROUP BY cdays.id
+  SELECT 
+    meals.id AS "mealId", 
+    meals."countedDayId" AS "countedDayId", 
+    meals.name AS "mealName", 
+    meals.description AS "mealDescription", 
+    meals."createdAt" AS "mealCreationDate", 
+    SUM (ing."carbsInGrams") AS carbs, 
+    SUM (ing."fatsInGrams") AS fats, 
+    SUM (ing."proteinsInGrams") AS proteins, 
+    SUM (ing.kcals) AS kcals, 
+    json_agg(
+      row_to_json(ing)
+    ) AS "ingredientList" 
+  FROM 
+    meals 
+    LEFT JOIN ingredients ing ON meals.id = ing."mealId" 
+  WHERE 
+    meals."countedDayId" IN (
+      SELECT 
+        cdays.id 
+      FROM 
+        "countedDays" cdays 
+      WHERE 
+        cdays."userId" = ${userId}
+    ) 
+  GROUP BY 
+    meals.id
+), 
+meal_resume AS (
+  SELECT 
+    cdays.id AS "countedDayId", 
+    SUM (rdmeals.carbs) AS carbs, 
+    SUM (rdmeals.fats) AS fats, 
+    SUM (rdmeals.proteins) AS proteins, 
+    SUM (rdmeals.kcals) AS kcals, 
+    json_agg(
+      row_to_json(rdmeals)
+    ) AS "dayMeals" 
+  FROM 
+    resumed_day_meals rdmeals 
+    JOIN "countedDays" cdays ON rdmeals."countedDayId" = cdays.id 
+  GROUP BY 
+    cdays.id
+) 
+SELECT 
+  cdays.*, 
+  mr.carbs, 
+  mr.fats, 
+  mr.proteins, 
+  mr.kcals, 
+  mr."dayMeals" 
+FROM 
+  "countedDays" cdays 
+  LEFT JOIN meal_resume mr ON cdays.id = mr."countedDayId" 
+WHERE 
+  cdays."userId" = ${userId}
+
   `;
 }
