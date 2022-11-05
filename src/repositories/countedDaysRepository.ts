@@ -16,10 +16,10 @@ export async function getDaysSummarizedData(userId: number) {
     meals.name AS "mealName", 
     meals.description AS "mealDescription", 
     meals."createdAt" AS "mealCreationDate", 
-    SUM (ing."carbsInGrams") AS carbs, 
-    SUM (ing."fatsInGrams") AS fats, 
-    SUM (ing."proteinsInGrams") AS proteins, 
-    SUM (ing.kcals) AS kcals, 
+    COALESCE(SUM(ing."carbsInGrams"),0) AS carbs, 
+    COALESCE(SUM(ing."fatsInGrams"),0) AS fats, 
+    COALESCE(SUM(ing."proteinsInGrams"),0) AS proteins, 
+    COALESCE(SUM(ing.kcals),0) AS kcals, 
     json_agg(
       row_to_json(ing)
     ) AS "ingredientList" 
@@ -41,10 +41,10 @@ export async function getDaysSummarizedData(userId: number) {
 meal_resume AS (
   SELECT 
     cdays.id AS "countedDayId", 
-    SUM (rdmeals.carbs) AS carbs, 
-    SUM (rdmeals.fats) AS fats, 
-    SUM (rdmeals.proteins) AS proteins, 
-    SUM (rdmeals.kcals) AS kcals, 
+    COALESCE(SUM(rdmeals.carbs),0) AS carbs, 
+    COALESCE(SUM(rdmeals.fats),0) AS fats, 
+    COALESCE(SUM(rdmeals.proteins),0) AS proteins, 
+    COALESCE(SUM(rdmeals.kcals),0) AS kcals, 
     json_agg(
       row_to_json(rdmeals)
     ) AS "dayMeals" 
@@ -56,10 +56,10 @@ meal_resume AS (
 ) 
 SELECT 
   cdays.*, 
-  mr.carbs, 
-  mr.fats, 
-  mr.proteins, 
-  mr.kcals, 
+  COALESCE(mr.carbs,0) AS carbs, 
+  COALESCE(mr.fats,0) AS fats, 
+  COALESCE(mr.proteins,0) AS proteins, 
+  COALESCE(mr.kcals,0) AS kcals, 
   mr."dayMeals" 
 FROM 
   "countedDays" cdays 
