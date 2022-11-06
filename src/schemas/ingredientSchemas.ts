@@ -1,7 +1,7 @@
 import Joi from 'joi';
 import { IIngredientData } from '../types/ingredientTypes';
 
-const ingredientSchema = Joi.object<IIngredientData>({
+export const ingredientSchema = Joi.object<IIngredientData>({
   name: Joi.string().required(),
   mealId: Joi.number().required(),
   weight: Joi.number().required(),
@@ -9,8 +9,4 @@ const ingredientSchema = Joi.object<IIngredientData>({
   fats: Joi.number().required(),
   proteins: Joi.number().required(),
   kcals: Joi.number().required()
-});
-
-export const ingredientListSchema = Joi.object({
-  ingredients: Joi.array().items(ingredientSchema)
 });

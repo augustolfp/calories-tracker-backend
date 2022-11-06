@@ -2,10 +2,10 @@ import { Request, Response } from 'express';
 import * as ingredientService from '../services/ingredientService';
 import { IIngredientData } from '../types/ingredientTypes';
 
-export async function insertIngredients(req: Request, res: Response) {
-  const ingredients: IIngredientData[] = req.body.ingredients;
+export async function insertIngredient(req: Request, res: Response) {
+  const ingredient: IIngredientData = req.body;
 
-  const result = await ingredientService.createMany(ingredients);
+  const result = await ingredientService.createMany(ingredient);
 
   return res.status(201).send(result);
 }
