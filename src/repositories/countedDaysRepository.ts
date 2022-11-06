@@ -69,3 +69,11 @@ WHERE
 
   `;
 }
+
+export async function getUserDay(userId: number, date: Date) {
+  return await prisma.countedDays.findFirst({
+    where: {
+      AND: [{ userId: userId }, { day: date }]
+    }
+  });
+}
