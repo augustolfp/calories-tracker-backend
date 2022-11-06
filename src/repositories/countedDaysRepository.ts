@@ -16,9 +16,9 @@ export async function getDaysSummarizedData(userId: number) {
     meals.name AS "mealName", 
     meals.description AS "mealDescription", 
     meals."createdAt" AS "mealCreationDate", 
-    COALESCE(SUM(ing."carbsInGrams"),0) AS carbs, 
-    COALESCE(SUM(ing."fatsInGrams"),0) AS fats, 
-    COALESCE(SUM(ing."proteinsInGrams"),0) AS proteins, 
+    COALESCE(SUM(ing."carbs"),0) AS carbs, 
+    COALESCE(SUM(ing."fats"),0) AS fats, 
+    COALESCE(SUM(ing."proteins"),0) AS proteins, 
     COALESCE(SUM(ing.kcals),0) AS kcals, 
     json_agg(
       row_to_json(ing)
