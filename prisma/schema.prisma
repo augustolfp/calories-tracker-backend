@@ -24,7 +24,7 @@ model Users {
 model Meals {
   id Int @id @default(autoincrement())
   name String
-  description String
+  description String?
   createdAt DateTime @default(now())
   ingredients Ingredients[]
   countedDay CountedDays @relation(fields: [countedDayId], references: [id])
@@ -48,7 +48,7 @@ model Ingredients {
 model CountedDays {
   id Int @id @default(autoincrement())
   day DateTime
-  notes String
+  notes String?
   user Users @relation(fields: [userId], references: [id])
   userId Int
   caloriesTarget Int
@@ -61,13 +61,9 @@ model TacoTable {
   id Int @id @default(autoincrement())
   description String
   baseQty Float
-  baseUnit String
   proteins Float
-  proteinUnit String
   carbs Float
-  carbUnit String
   fats Float
-  fatUnit String
   kcals Float
   @@map("tacoTable")
 }

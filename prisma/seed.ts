@@ -1,4 +1,4 @@
-import foodList from './finalFoodList.json';
+import foodList from './truncatedFinalFoodList.json';
 import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();

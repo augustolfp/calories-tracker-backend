@@ -1,0 +1,4778 @@
+[
+  {
+    "description": "Arroz, integral, cozido",
+    "baseQty": 100,
+    "proteins": 2.6,
+    "carbs": 25.8,
+    "fats": 1,
+    "kcals": 123.5
+  },
+  {
+    "description": "Arroz, integral, cru",
+    "baseQty": 100,
+    "proteins": 7.3,
+    "carbs": 77.5,
+    "fats": 1.9,
+    "kcals": 359.7
+  },
+  {
+    "description": "Arroz, tipo 1, cozido",
+    "baseQty": 100,
+    "proteins": 2.5,
+    "carbs": 28.1,
+    "fats": 0.2,
+    "kcals": 128.3
+  },
+  {
+    "description": "Arroz, tipo 1, cru",
+    "baseQty": 100,
+    "proteins": 7.2,
+    "carbs": 78.8,
+    "fats": 0.3,
+    "kcals": 357.8
+  },
+  {
+    "description": "Arroz, tipo 2, cozido",
+    "baseQty": 100,
+    "proteins": 2.6,
+    "carbs": 28.2,
+    "fats": 0.4,
+    "kcals": 130.1
+  },
+  {
+    "description": "Arroz, tipo 2, cru",
+    "baseQty": 100,
+    "proteins": 7.2,
+    "carbs": 78.9,
+    "fats": 0.3,
+    "kcals": 358.1
+  },
+  {
+    "description": "Aveia, flocos, crua",
+    "baseQty": 100,
+    "proteins": 13.9,
+    "carbs": 66.6,
+    "fats": 8.5,
+    "kcals": 393.8
+  },
+  {
+    "description": "Biscoito, doce, maisena",
+    "baseQty": 100,
+    "proteins": 8.1,
+    "carbs": 75.2,
+    "fats": 12,
+    "kcals": 442.8
+  },
+  {
+    "description": "Biscoito, doce, recheado com chocolate",
+    "baseQty": 100,
+    "proteins": 6.4,
+    "carbs": 70.5,
+    "fats": 19.6,
+    "kcals": 471.8
+  },
+  {
+    "description": "Biscoito, doce, recheado com morango",
+    "baseQty": 100,
+    "proteins": 5.7,
+    "carbs": 71,
+    "fats": 19.6,
+    "kcals": 471.2
+  },
+  {
+    "description": "Biscoito, doce, wafer, recheado de chocolate",
+    "baseQty": 100,
+    "proteins": 5.6,
+    "carbs": 67.5,
+    "fats": 24.7,
+    "kcals": 502.5
+  },
+  {
+    "description": "Biscoito, doce, wafer, recheado de morango",
+    "baseQty": 100,
+    "proteins": 4.5,
+    "carbs": 67.4,
+    "fats": 26.4,
+    "kcals": 513.4
+  },
+  {
+    "description": "Biscoito, salgado, cream cracker",
+    "baseQty": 100,
+    "proteins": 10.1,
+    "carbs": 68.7,
+    "fats": 14.4,
+    "kcals": 431.7
+  },
+  {
+    "description": "Bolo, mistura para",
+    "baseQty": 100,
+    "proteins": 6.2,
+    "carbs": 84.7,
+    "fats": 6.1,
+    "kcals": 418.6
+  },
+  {
+    "description": "Bolo, pronto, aipim",
+    "baseQty": 100,
+    "proteins": 4.4,
+    "carbs": 47.9,
+    "fats": 12.7,
+    "kcals": 323.9
+  },
+  {
+    "description": "Bolo, pronto, chocolate",
+    "baseQty": 100,
+    "proteins": 6.2,
+    "carbs": 54.7,
+    "fats": 18.5,
+    "kcals": 410
+  },
+  {
+    "description": "Bolo, pronto, coco",
+    "baseQty": 100,
+    "proteins": 5.7,
+    "carbs": 52.3,
+    "fats": 11.3,
+    "kcals": 333.4
+  },
+  {
+    "description": "Bolo, pronto, milho",
+    "baseQty": 100,
+    "proteins": 4.8,
+    "carbs": 45.1,
+    "fats": 12.4,
+    "kcals": 311.4
+  },
+  {
+    "description": "Canjica, branca, crua",
+    "baseQty": 100,
+    "proteins": 7.2,
+    "carbs": 78.1,
+    "fats": 1,
+    "kcals": 357.6
+  },
+  {
+    "description": "Canjica, com leite integral",
+    "baseQty": 100,
+    "proteins": 2.4,
+    "carbs": 23.6,
+    "fats": 1.2,
+    "kcals": 112.5
+  },
+  {
+    "description": "Cereais, milho, flocos, com sal",
+    "baseQty": 100,
+    "proteins": 7.3,
+    "carbs": 80.8,
+    "fats": 1.6,
+    "kcals": 369.6
+  },
+  {
+    "description": "Cereais, milho, flocos, sem sal",
+    "baseQty": 100,
+    "proteins": 6.9,
+    "carbs": 80.4,
+    "fats": 1.2,
+    "kcals": 363.3
+  },
+  {
+    "description": "Cereais, mingau, milho, infantil",
+    "baseQty": 100,
+    "proteins": 6.4,
+    "carbs": 87.3,
+    "fats": 1.1,
+    "kcals": 394.4
+  },
+  {
+    "description": "Cereais, mistura para vitamina, trigo, cevada e aveia",
+    "baseQty": 100,
+    "proteins": 8.9,
+    "carbs": 81.6,
+    "fats": 2.1,
+    "kcals": 381.1
+  },
+  {
+    "description": "Cereal matinal, milho",
+    "baseQty": 100,
+    "proteins": 7.2,
+    "carbs": 83.8,
+    "fats": 1,
+    "kcals": 365.4
+  },
+  {
+    "description": "Cereal matinal, milho, açúcar",
+    "baseQty": 100,
+    "proteins": 4.7,
+    "carbs": 88.8,
+    "fats": 0.7,
+    "kcals": 376.6
+  },
+  {
+    "description": "Creme de arroz, pó",
+    "baseQty": 100,
+    "proteins": 7,
+    "carbs": 83.9,
+    "fats": 1.2,
+    "kcals": 386
+  },
+  {
+    "description": "Creme de milho, pó",
+    "baseQty": 100,
+    "proteins": 4.8,
+    "carbs": 86.1,
+    "fats": 1.6,
+    "kcals": 333
+  },
+  {
+    "description": "Curau, milho verde",
+    "baseQty": 100,
+    "proteins": 2.4,
+    "carbs": 13.9,
+    "fats": 1.6,
+    "kcals": 78.4
+  },
+  {
+    "description": "Curau, milho verde, mistura para",
+    "baseQty": 100,
+    "proteins": 2.2,
+    "carbs": 79.8,
+    "fats": 13.4,
+    "kcals": 402.3
+  },
+  {
+    "description": "Farinha, de arroz, enriquecida",
+    "baseQty": 100,
+    "proteins": 1.3,
+    "carbs": 85.5,
+    "fats": 0.3,
+    "kcals": 363.1
+  },
+  {
+    "description": "Farinha, de centeio, integral",
+    "baseQty": 100,
+    "proteins": 12.5,
+    "carbs": 73.3,
+    "fats": 1.8,
+    "kcals": 335.8
+  },
+  {
+    "description": "Farinha, de milho, amarela",
+    "baseQty": 100,
+    "proteins": 7.2,
+    "carbs": 79.1,
+    "fats": 1.5,
+    "kcals": 350.6
+  },
+  {
+    "description": "Farinha, de rosca",
+    "baseQty": 100,
+    "proteins": 11.4,
+    "carbs": 75.8,
+    "fats": 1.5,
+    "kcals": 370.6
+  },
+  {
+    "description": "Farinha, de trigo",
+    "baseQty": 100,
+    "proteins": 9.8,
+    "carbs": 75.1,
+    "fats": 1.4,
+    "kcals": 360.5
+  },
+  {
+    "description": "Farinha, láctea, de cereais",
+    "baseQty": 100,
+    "proteins": 11.9,
+    "carbs": 77.8,
+    "fats": 5.8,
+    "kcals": 414.9
+  },
+  {
+    "description": "Lasanha, massa fresca, cozida",
+    "baseQty": 100,
+    "proteins": 5.8,
+    "carbs": 32.5,
+    "fats": 1.2,
+    "kcals": 163.8
+  },
+  {
+    "description": "Lasanha, massa fresca, crua",
+    "baseQty": 100,
+    "proteins": 7,
+    "carbs": 45.1,
+    "fats": 1.3,
+    "kcals": 220.3
+  },
+  {
+    "description": "Macarrão, instantâneo",
+    "baseQty": 100,
+    "proteins": 8.8,
+    "carbs": 62.4,
+    "fats": 17.2,
+    "kcals": 435.9
+  },
+  {
+    "description": "Macarrão, trigo, cru",
+    "baseQty": 100,
+    "proteins": 10,
+    "carbs": 77.9,
+    "fats": 1.3,
+    "kcals": 371.1
+  },
+  {
+    "description": "Macarrão, trigo, cru, com ovos",
+    "baseQty": 100,
+    "proteins": 10.3,
+    "carbs": 76.6,
+    "fats": 2,
+    "kcals": 370.6
+  },
+  {
+    "description": "Milho, amido, cru",
+    "baseQty": 100,
+    "proteins": 0.6,
+    "carbs": 87.1,
+    "fats": 0,
+    "kcals": 361.4
+  },
+  {
+    "description": "Milho, fubá, cru",
+    "baseQty": 100,
+    "proteins": 7.2,
+    "carbs": 78.9,
+    "fats": 1.9,
+    "kcals": 353.5
+  },
+  {
+    "description": "Milho, verde, cru",
+    "baseQty": 100,
+    "proteins": 6.6,
+    "carbs": 28.6,
+    "fats": 0.6,
+    "kcals": 138.2
+  },
+  {
+    "description": "Milho, verde, enlatado, drenado",
+    "baseQty": 100,
+    "proteins": 3.2,
+    "carbs": 17.1,
+    "fats": 2.4,
+    "kcals": 97.6
+  },
+  {
+    "description": "Mingau tradicional, pó",
+    "baseQty": 100,
+    "proteins": 0.6,
+    "carbs": 89.3,
+    "fats": 0.4,
+    "kcals": 373.4
+  },
+  {
+    "description": "Pamonha, barra para cozimento, pré-cozida",
+    "baseQty": 100,
+    "proteins": 2.6,
+    "carbs": 30.7,
+    "fats": 4.8,
+    "kcals": 171.2
+  },
+  {
+    "description": "Pão, aveia, forma",
+    "baseQty": 100,
+    "proteins": 12.4,
+    "carbs": 59.6,
+    "fats": 5.7,
+    "kcals": 343.1
+  },
+  {
+    "description": "Pão, de soja",
+    "baseQty": 100,
+    "proteins": 11.3,
+    "carbs": 56.5,
+    "fats": 3.6,
+    "kcals": 308.7
+  },
+  {
+    "description": "Pão, glúten, forma",
+    "baseQty": 100,
+    "proteins": 12,
+    "carbs": 44.1,
+    "fats": 2.7,
+    "kcals": 253
+  },
+  {
+    "description": "Pão, milho, forma",
+    "baseQty": 100,
+    "proteins": 8.3,
+    "carbs": 56.4,
+    "fats": 3.1,
+    "kcals": 292
+  },
+  {
+    "description": "Pão, trigo, forma, integral",
+    "baseQty": 100,
+    "proteins": 9.4,
+    "carbs": 49.9,
+    "fats": 3.7,
+    "kcals": 253.2
+  },
+  {
+    "description": "Pão, trigo, francês",
+    "baseQty": 100,
+    "proteins": 8,
+    "carbs": 58.6,
+    "fats": 3.1,
+    "kcals": 299.8
+  },
+  {
+    "description": "Pão, trigo, sovado",
+    "baseQty": 100,
+    "proteins": 8.4,
+    "carbs": 61.5,
+    "fats": 2.8,
+    "kcals": 311
+  },
+  {
+    "description": "Pastel, de carne, cru",
+    "baseQty": 100,
+    "proteins": 10.7,
+    "carbs": 42,
+    "fats": 8.8,
+    "kcals": 288.7
+  },
+  {
+    "description": "Pastel, de carne, frito",
+    "baseQty": 100,
+    "proteins": 10.1,
+    "carbs": 43.8,
+    "fats": 20.1,
+    "kcals": 388.4
+  },
+  {
+    "description": "Pastel, de queijo, cru",
+    "baseQty": 100,
+    "proteins": 9.9,
+    "carbs": 45.9,
+    "fats": 9.6,
+    "kcals": 308.5
+  },
+  {
+    "description": "Pastel, de queijo, frito",
+    "baseQty": 100,
+    "proteins": 8.7,
+    "carbs": 48.1,
+    "fats": 22.7,
+    "kcals": 422.1
+  },
+  {
+    "description": "Pastel, massa, crua",
+    "baseQty": 100,
+    "proteins": 6.9,
+    "carbs": 57.4,
+    "fats": 5.5,
+    "kcals": 310.2
+  },
+  {
+    "description": "Pastel, massa, frita",
+    "baseQty": 100,
+    "proteins": 6,
+    "carbs": 49.3,
+    "fats": 40.9,
+    "kcals": 569.7
+  },
+  {
+    "description": "Pipoca, com óleo de soja, sem sal",
+    "baseQty": 100,
+    "proteins": 9.9,
+    "carbs": 70.3,
+    "fats": 15.9,
+    "kcals": 448.3
+  },
+  {
+    "description": "Polenta, pré-cozida",
+    "baseQty": 100,
+    "proteins": 2.3,
+    "carbs": 23.3,
+    "fats": 0.3,
+    "kcals": 102.7
+  },
+  {
+    "description": "Torrada, pão francês",
+    "baseQty": 100,
+    "proteins": 10.5,
+    "carbs": 74.6,
+    "fats": 3.3,
+    "kcals": 377.4
+  },
+  {
+    "description": "Abóbora, cabotian, cozida",
+    "baseQty": 100,
+    "proteins": 1.4,
+    "carbs": 10.8,
+    "fats": 0.7,
+    "kcals": 48
+  },
+  {
+    "description": "Abóbora, cabotian, crua",
+    "baseQty": 100,
+    "proteins": 1.7,
+    "carbs": 8.4,
+    "fats": 0.5,
+    "kcals": 38.6
+  },
+  {
+    "description": "Abóbora, menina brasileira, crua",
+    "baseQty": 100,
+    "proteins": 0.6,
+    "carbs": 3.3,
+    "fats": 0,
+    "kcals": 13.6
+  },
+  {
+    "description": "Abóbora, moranga, crua",
+    "baseQty": 100,
+    "proteins": 1,
+    "carbs": 2.7,
+    "fats": 0.1,
+    "kcals": 12.4
+  },
+  {
+    "description": "Abóbora, moranga, refogada",
+    "baseQty": 100,
+    "proteins": 0.4,
+    "carbs": 6,
+    "fats": 0.8,
+    "kcals": 29
+  },
+  {
+    "description": "Abóbora, pescoço, crua",
+    "baseQty": 100,
+    "proteins": 0.7,
+    "carbs": 6.1,
+    "fats": 0.1,
+    "kcals": 24.5
+  },
+  {
+    "description": "Abobrinha, italiana, cozida",
+    "baseQty": 100,
+    "proteins": 1.1,
+    "carbs": 3,
+    "fats": 0.2,
+    "kcals": 15
+  },
+  {
+    "description": "Abobrinha, italiana, crua",
+    "baseQty": 100,
+    "proteins": 1.1,
+    "carbs": 4.3,
+    "fats": 0.1,
+    "kcals": 19.3
+  },
+  {
+    "description": "Abobrinha, italiana, refogada",
+    "baseQty": 100,
+    "proteins": 1.1,
+    "carbs": 4.2,
+    "fats": 0.8,
+    "kcals": 24.4
+  },
+  {
+    "description": "Abobrinha, paulista, crua",
+    "baseQty": 100,
+    "proteins": 0.6,
+    "carbs": 7.9,
+    "fats": 0.1,
+    "kcals": 30.8
+  },
+  {
+    "description": "Acelga, crua",
+    "baseQty": 100,
+    "proteins": 1.4,
+    "carbs": 4.6,
+    "fats": 0.1,
+    "kcals": 20.9
+  },
+  {
+    "description": "Agrião, cru",
+    "baseQty": 100,
+    "proteins": 2.7,
+    "carbs": 2.3,
+    "fats": 0.2,
+    "kcals": 16.6
+  },
+  {
+    "description": "Aipo, cru",
+    "baseQty": 100,
+    "proteins": 0.8,
+    "carbs": 4.3,
+    "fats": 0.1,
+    "kcals": 19.1
+  },
+  {
+    "description": "Alface, americana, crua",
+    "baseQty": 100,
+    "proteins": 0.6,
+    "carbs": 1.7,
+    "fats": 0.1,
+    "kcals": 8.8
+  },
+  {
+    "description": "Alface, crespa, crua",
+    "baseQty": 100,
+    "proteins": 1.3,
+    "carbs": 1.7,
+    "fats": 0.2,
+    "kcals": 10.7
+  },
+  {
+    "description": "Alface, lisa, crua",
+    "baseQty": 100,
+    "proteins": 1.7,
+    "carbs": 2.4,
+    "fats": 0.1,
+    "kcals": 13.8
+  },
+  {
+    "description": "Alface, roxa, crua",
+    "baseQty": 100,
+    "proteins": 0.9,
+    "carbs": 2.5,
+    "fats": 0.2,
+    "kcals": 12.7
+  },
+  {
+    "description": "Alfavaca, crua",
+    "baseQty": 100,
+    "proteins": 2.7,
+    "carbs": 5.2,
+    "fats": 0.5,
+    "kcals": 29.2
+  },
+  {
+    "description": "Alho, cru",
+    "baseQty": 100,
+    "proteins": 7,
+    "carbs": 23.9,
+    "fats": 0.2,
+    "kcals": 113.1
+  },
+  {
+    "description": "Alho-poró, cru",
+    "baseQty": 100,
+    "proteins": 1.4,
+    "carbs": 6.9,
+    "fats": 0.1,
+    "kcals": 31.5
+  },
+  {
+    "description": "Almeirão, cru",
+    "baseQty": 100,
+    "proteins": 1.8,
+    "carbs": 3.3,
+    "fats": 0.2,
+    "kcals": 18
+  },
+  {
+    "description": "Almeirão, refogado",
+    "baseQty": 100,
+    "proteins": 1.7,
+    "carbs": 5.7,
+    "fats": 4.8,
+    "kcals": 65.1
+  },
+  {
+    "description": "Batata, baroa, cozida",
+    "baseQty": 100,
+    "proteins": 0.9,
+    "carbs": 18.9,
+    "fats": 0.2,
+    "kcals": 80.1
+  },
+  {
+    "description": "Batata, baroa, crua",
+    "baseQty": 100,
+    "proteins": 1,
+    "carbs": 24,
+    "fats": 0.2,
+    "kcals": 101
+  },
+  {
+    "description": "Batata, doce, cozida",
+    "baseQty": 100,
+    "proteins": 0.6,
+    "carbs": 18.4,
+    "fats": 0.1,
+    "kcals": 76.8
+  },
+  {
+    "description": "Batata, doce, crua",
+    "baseQty": 100,
+    "proteins": 1.3,
+    "carbs": 28.2,
+    "fats": 0.1,
+    "kcals": 118.2
+  },
+  {
+    "description": "Batata, frita, tipo chips, industrializada",
+    "baseQty": 100,
+    "proteins": 5.6,
+    "carbs": 51.2,
+    "fats": 36.6,
+    "kcals": 542.7
+  },
+  {
+    "description": "Batata, inglesa, cozida",
+    "baseQty": 100,
+    "proteins": 1.2,
+    "carbs": 11.9,
+    "fats": 0,
+    "kcals": 51.6
+  },
+  {
+    "description": "Batata, inglesa, crua",
+    "baseQty": 100,
+    "proteins": 1.8,
+    "carbs": 14.7,
+    "fats": 0,
+    "kcals": 64.4
+  },
+  {
+    "description": "Batata, inglesa, frita",
+    "baseQty": 100,
+    "proteins": 5,
+    "carbs": 35.6,
+    "fats": 13.1,
+    "kcals": 267.2
+  },
+  {
+    "description": "Batata, inglesa, sauté",
+    "baseQty": 100,
+    "proteins": 1.3,
+    "carbs": 14.1,
+    "fats": 0.9,
+    "kcals": 67.9
+  },
+  {
+    "description": "Berinjela, cozida",
+    "baseQty": 100,
+    "proteins": 0.7,
+    "carbs": 4.5,
+    "fats": 0.1,
+    "kcals": 18.8
+  },
+  {
+    "description": "Berinjela, crua",
+    "baseQty": 100,
+    "proteins": 1.2,
+    "carbs": 4.4,
+    "fats": 0.1,
+    "kcals": 19.6
+  },
+  {
+    "description": "Beterraba, cozida",
+    "baseQty": 100,
+    "proteins": 1.3,
+    "carbs": 7.2,
+    "fats": 0.1,
+    "kcals": 32.2
+  },
+  {
+    "description": "Beterraba, crua",
+    "baseQty": 100,
+    "proteins": 1.9,
+    "carbs": 11.1,
+    "fats": 0.1,
+    "kcals": 48.8
+  },
+  {
+    "description": "Biscoito, polvilho doce",
+    "baseQty": 100,
+    "proteins": 1.3,
+    "carbs": 80.5,
+    "fats": 12.2,
+    "kcals": 437.5
+  },
+  {
+    "description": "Brócolis, cozido",
+    "baseQty": 100,
+    "proteins": 2.1,
+    "carbs": 4.4,
+    "fats": 0.5,
+    "kcals": 24.6
+  },
+  {
+    "description": "Brócolis, cru",
+    "baseQty": 100,
+    "proteins": 3.6,
+    "carbs": 4,
+    "fats": 0.3,
+    "kcals": 25.5
+  },
+  {
+    "description": "Cará, cozido",
+    "baseQty": 100,
+    "proteins": 1.5,
+    "carbs": 18.9,
+    "fats": 0.1,
+    "kcals": 77.6
+  },
+  {
+    "description": "Cará, cru",
+    "baseQty": 100,
+    "proteins": 2.3,
+    "carbs": 23,
+    "fats": 0.1,
+    "kcals": 95.6
+  },
+  {
+    "description": "Caruru, cru",
+    "baseQty": 100,
+    "proteins": 3.2,
+    "carbs": 6,
+    "fats": 0.6,
+    "kcals": 34
+  },
+  {
+    "description": "Catalonha, crua",
+    "baseQty": 100,
+    "proteins": 1.9,
+    "carbs": 4.8,
+    "fats": 0.3,
+    "kcals": 23.9
+  },
+  {
+    "description": "Catalonha, refogada",
+    "baseQty": 100,
+    "proteins": 2,
+    "carbs": 4.8,
+    "fats": 4.8,
+    "kcals": 63.4
+  },
+  {
+    "description": "Cebola, crua",
+    "baseQty": 100,
+    "proteins": 1.7,
+    "carbs": 8.9,
+    "fats": 0.1,
+    "kcals": 39.4
+  },
+  {
+    "description": "Cebolinha, crua",
+    "baseQty": 100,
+    "proteins": 1.9,
+    "carbs": 3.4,
+    "fats": 0.4,
+    "kcals": 19.5
+  },
+  {
+    "description": "Cenoura, cozida",
+    "baseQty": 100,
+    "proteins": 0.8,
+    "carbs": 6.7,
+    "fats": 0.2,
+    "kcals": 29.9
+  },
+  {
+    "description": "Cenoura, crua",
+    "baseQty": 100,
+    "proteins": 1.3,
+    "carbs": 7.7,
+    "fats": 0.2,
+    "kcals": 34.1
+  },
+  {
+    "description": "Chicória, crua",
+    "baseQty": 100,
+    "proteins": 1.1,
+    "carbs": 2.9,
+    "fats": 0.1,
+    "kcals": 13.8
+  },
+  {
+    "description": "Chuchu, cozido",
+    "baseQty": 100,
+    "proteins": 0.4,
+    "carbs": 4.8,
+    "fats": 0,
+    "kcals": 18.5
+  },
+  {
+    "description": "Chuchu, cru",
+    "baseQty": 100,
+    "proteins": 0.7,
+    "carbs": 4.1,
+    "fats": 0.1,
+    "kcals": 17
+  },
+  {
+    "description": "Coentro, folhas desidratadas",
+    "baseQty": 100,
+    "proteins": 20.9,
+    "carbs": 48,
+    "fats": 10.4,
+    "kcals": 309.1
+  },
+  {
+    "description": "Couve, manteiga, crua",
+    "baseQty": 100,
+    "proteins": 2.9,
+    "carbs": 4.3,
+    "fats": 0.5,
+    "kcals": 27.1
+  },
+  {
+    "description": "Couve, manteiga, refogada",
+    "baseQty": 100,
+    "proteins": 1.7,
+    "carbs": 8.7,
+    "fats": 6.6,
+    "kcals": 90.3
+  },
+  {
+    "description": "Couve-flor, crua",
+    "baseQty": 100,
+    "proteins": 1.9,
+    "carbs": 4.5,
+    "fats": 0.2,
+    "kcals": 22.6
+  },
+  {
+    "description": "Couve-flor, cozida",
+    "baseQty": 100,
+    "proteins": 1.2,
+    "carbs": 3.9,
+    "fats": 0.3,
+    "kcals": 19.1
+  },
+  {
+    "description": "Espinafre, Nova Zelândia, cru",
+    "baseQty": 100,
+    "proteins": 2,
+    "carbs": 2.6,
+    "fats": 0.2,
+    "kcals": 16.1
+  },
+  {
+    "description": "Espinafre, Nova Zelândia, refogado",
+    "baseQty": 100,
+    "proteins": 2.7,
+    "carbs": 4.2,
+    "fats": 5.4,
+    "kcals": 67.3
+  },
+  {
+    "description": "Farinha, de mandioca, crua",
+    "baseQty": 100,
+    "proteins": 1.6,
+    "carbs": 87.9,
+    "fats": 0.3,
+    "kcals": 360.9
+  },
+  {
+    "description": "Farinha, de mandioca, torrada",
+    "baseQty": 100,
+    "proteins": 1.2,
+    "carbs": 89.2,
+    "fats": 0.3,
+    "kcals": 365.3
+  },
+  {
+    "description": "Farinha, de puba",
+    "baseQty": 100,
+    "proteins": 1.6,
+    "carbs": 87.3,
+    "fats": 0.5,
+    "kcals": 360.2
+  },
+  {
+    "description": "Fécula, de mandioca",
+    "baseQty": 100,
+    "proteins": 0.5,
+    "carbs": 81.1,
+    "fats": 0.3,
+    "kcals": 330.9
+  },
+  {
+    "description": "Feijão, broto, cru",
+    "baseQty": 100,
+    "proteins": 4.2,
+    "carbs": 7.8,
+    "fats": 0.1,
+    "kcals": 38.7
+  },
+  {
+    "description": "Inhame, cru",
+    "baseQty": 100,
+    "proteins": 2.1,
+    "carbs": 23.2,
+    "fats": 0.2,
+    "kcals": 96.7
+  },
+  {
+    "description": "Jiló, cru",
+    "baseQty": 100,
+    "proteins": 1.4,
+    "carbs": 6.2,
+    "fats": 0.2,
+    "kcals": 27.4
+  },
+  {
+    "description": "Jurubeba, crua",
+    "baseQty": 100,
+    "proteins": 4.4,
+    "carbs": 23.1,
+    "fats": 3.9,
+    "kcals": 125.8
+  },
+  {
+    "description": "Mandioca, cozida",
+    "baseQty": 100,
+    "proteins": 0.6,
+    "carbs": 30.1,
+    "fats": 0.3,
+    "kcals": 125.4
+  },
+  {
+    "description": "Mandioca, crua",
+    "baseQty": 100,
+    "proteins": 1.1,
+    "carbs": 36.2,
+    "fats": 0.3,
+    "kcals": 151.4
+  },
+  {
+    "description": "Mandioca, farofa, temperada",
+    "baseQty": 100,
+    "proteins": 2.1,
+    "carbs": 80.3,
+    "fats": 9.1,
+    "kcals": 405.7
+  },
+  {
+    "description": "Mandioca, frita",
+    "baseQty": 100,
+    "proteins": 1.4,
+    "carbs": 50.3,
+    "fats": 11.2,
+    "kcals": 300.1
+  },
+  {
+    "description": "Manjericão, cru",
+    "baseQty": 100,
+    "proteins": 2,
+    "carbs": 3.6,
+    "fats": 0.4,
+    "kcals": 21.1
+  },
+  {
+    "description": "Maxixe, cru",
+    "baseQty": 100,
+    "proteins": 1.4,
+    "carbs": 2.7,
+    "fats": 0.1,
+    "kcals": 13.7
+  },
+  {
+    "description": "Mostarda, folha, crua",
+    "baseQty": 100,
+    "proteins": 2.1,
+    "carbs": 3.2,
+    "fats": 0.2,
+    "kcals": 18.1
+  },
+  {
+    "description": "Nhoque, batata, cozido",
+    "baseQty": 100,
+    "proteins": 5.9,
+    "carbs": 36.8,
+    "fats": 1.9,
+    "kcals": 180.8
+  },
+  {
+    "description": "Nabo, cru",
+    "baseQty": 100,
+    "proteins": 1.2,
+    "carbs": 4.1,
+    "fats": 0.1,
+    "kcals": 18.2
+  },
+  {
+    "description": "Palmito, Juçara, em conserva",
+    "baseQty": 100,
+    "proteins": 1.8,
+    "carbs": 4.3,
+    "fats": 0.4,
+    "kcals": 23.2
+  },
+  {
+    "description": "Palmito, pupunha, em conserva",
+    "baseQty": 100,
+    "proteins": 2.5,
+    "carbs": 5.5,
+    "fats": 0.5,
+    "kcals": 29.4
+  },
+  {
+    "description": "Pão, de queijo, assado",
+    "baseQty": 100,
+    "proteins": 5.1,
+    "carbs": 34.2,
+    "fats": 24.6,
+    "kcals": 363.1
+  },
+  {
+    "description": "Pão, de queijo, cru",
+    "baseQty": 100,
+    "proteins": 3.6,
+    "carbs": 38.5,
+    "fats": 14,
+    "kcals": 294.5
+  },
+  {
+    "description": "Pepino, cru",
+    "baseQty": 100,
+    "proteins": 0.9,
+    "carbs": 2,
+    "fats": 0,
+    "kcals": 9.5
+  },
+  {
+    "description": "Pimentão, amarelo, cru",
+    "baseQty": 100,
+    "proteins": 1.2,
+    "carbs": 6,
+    "fats": 0.4,
+    "kcals": 27.9
+  },
+  {
+    "description": "Pimentão, verde, cru",
+    "baseQty": 100,
+    "proteins": 1.1,
+    "carbs": 4.9,
+    "fats": 0.2,
+    "kcals": 21.3
+  },
+  {
+    "description": "Pimentão, vermelho, cru",
+    "baseQty": 100,
+    "proteins": 1,
+    "carbs": 5.5,
+    "fats": 0.1,
+    "kcals": 23.3
+  },
+  {
+    "description": "Polvilho, doce",
+    "baseQty": 100,
+    "proteins": 0.4,
+    "carbs": 86.8,
+    "fats": 0,
+    "kcals": 351.2
+  },
+  {
+    "description": "Quiabo, cru",
+    "baseQty": 100,
+    "proteins": 1.9,
+    "carbs": 6.4,
+    "fats": 0.3,
+    "kcals": 29.9
+  },
+  {
+    "description": "Rabanete, cru",
+    "baseQty": 100,
+    "proteins": 1.4,
+    "carbs": 2.7,
+    "fats": 0.1,
+    "kcals": 13.7
+  },
+  {
+    "description": "Repolho, branco, cru",
+    "baseQty": 100,
+    "proteins": 0.9,
+    "carbs": 3.9,
+    "fats": 0.1,
+    "kcals": 17.1
+  },
+  {
+    "description": "Repolho, roxo, cru",
+    "baseQty": 100,
+    "proteins": 1.9,
+    "carbs": 7.2,
+    "fats": 0.1,
+    "kcals": 30.9
+  },
+  {
+    "description": "Repolho, roxo, refogado",
+    "baseQty": 100,
+    "proteins": 1.8,
+    "carbs": 7.6,
+    "fats": 1.2,
+    "kcals": 41.8
+  },
+  {
+    "description": "Rúcula, crua",
+    "baseQty": 100,
+    "proteins": 1.8,
+    "carbs": 2.2,
+    "fats": 0.1,
+    "kcals": 13.1
+  },
+  {
+    "description": "Salsa, crua",
+    "baseQty": 100,
+    "proteins": 3.3,
+    "carbs": 5.7,
+    "fats": 0.6,
+    "kcals": 33.4
+  },
+  {
+    "description": "Seleta de legumes, enlatada",
+    "baseQty": 100,
+    "proteins": 3.4,
+    "carbs": 12.7,
+    "fats": 0.4,
+    "kcals": 56.5
+  },
+  {
+    "description": "Serralha, crua",
+    "baseQty": 100,
+    "proteins": 2.7,
+    "carbs": 4.9,
+    "fats": 0.7,
+    "kcals": 30.4
+  },
+  {
+    "description": "Taioba, crua",
+    "baseQty": 100,
+    "proteins": 2.9,
+    "carbs": 5.4,
+    "fats": 0.9,
+    "kcals": 34.2
+  },
+  {
+    "description": "Tomate, com semente, cru",
+    "baseQty": 100,
+    "proteins": 1.1,
+    "carbs": 3.1,
+    "fats": 0.2,
+    "kcals": 15.3
+  },
+  {
+    "description": "Tomate, extrato",
+    "baseQty": 100,
+    "proteins": 2.4,
+    "carbs": 15,
+    "fats": 0.2,
+    "kcals": 60.9
+  },
+  {
+    "description": "Tomate, molho industrializado",
+    "baseQty": 100,
+    "proteins": 1.4,
+    "carbs": 7.7,
+    "fats": 0.9,
+    "kcals": 38.4
+  },
+  {
+    "description": "Tomate, purê",
+    "baseQty": 100,
+    "proteins": 1.4,
+    "carbs": 6.9,
+    "fats": 0,
+    "kcals": 27.9
+  },
+  {
+    "description": "Tomate, salada",
+    "baseQty": 100,
+    "proteins": 0.8,
+    "carbs": 5.1,
+    "fats": 0,
+    "kcals": 20.5
+  },
+  {
+    "description": "Vagem, crua",
+    "baseQty": 100,
+    "proteins": 1.8,
+    "carbs": 5.3,
+    "fats": 0.2,
+    "kcals": 24.9
+  },
+  {
+    "description": "Abacate, cru",
+    "baseQty": 100,
+    "proteins": 1.2,
+    "carbs": 6,
+    "fats": 8.4,
+    "kcals": 96.2
+  },
+  {
+    "description": "Abacaxi, cru",
+    "baseQty": 100,
+    "proteins": 0.9,
+    "carbs": 12.3,
+    "fats": 0.1,
+    "kcals": 48.3
+  },
+  {
+    "description": "Abacaxi, polpa, congelada",
+    "baseQty": 100,
+    "proteins": 0.5,
+    "carbs": 7.8,
+    "fats": 0.1,
+    "kcals": 30.6
+  },
+  {
+    "description": "Abiu, cru",
+    "baseQty": 100,
+    "proteins": 0.8,
+    "carbs": 14.9,
+    "fats": 0.7,
+    "kcals": 62.4
+  },
+  {
+    "description": "Açaí, polpa, com xarope de guaraná e glucose",
+    "baseQty": 100,
+    "proteins": 0.7,
+    "carbs": 21.5,
+    "fats": 3.7,
+    "kcals": 110.3
+  },
+  {
+    "description": "Açaí, polpa, congelada",
+    "baseQty": 100,
+    "proteins": 0.8,
+    "carbs": 6.2,
+    "fats": 3.9,
+    "kcals": 58
+  },
+  {
+    "description": "Acerola, crua",
+    "baseQty": 100,
+    "proteins": 0.9,
+    "carbs": 8,
+    "fats": 0.2,
+    "kcals": 33.5
+  },
+  {
+    "description": "Acerola, polpa, congelada",
+    "baseQty": 100,
+    "proteins": 0.6,
+    "carbs": 5.5,
+    "fats": 0,
+    "kcals": 21.9
+  },
+  {
+    "description": "Ameixa, calda, enlatada",
+    "baseQty": 100,
+    "proteins": 0.4,
+    "carbs": 46.9,
+    "fats": 0,
+    "kcals": 182.8
+  },
+  {
+    "description": "Ameixa, crua",
+    "baseQty": 100,
+    "proteins": 0.8,
+    "carbs": 13.9,
+    "fats": 0,
+    "kcals": 52.5
+  },
+  {
+    "description": "Ameixa, em calda, enlatada, drenada",
+    "baseQty": 100,
+    "proteins": 1,
+    "carbs": 47.7,
+    "fats": 0.3,
+    "kcals": 177.4
+  },
+  {
+    "description": "Atemóia, crua",
+    "baseQty": 100,
+    "proteins": 1,
+    "carbs": 25.3,
+    "fats": 0.3,
+    "kcals": 97
+  },
+  {
+    "description": "Banana, da terra, crua",
+    "baseQty": 100,
+    "proteins": 1.4,
+    "carbs": 33.7,
+    "fats": 0.2,
+    "kcals": 128
+  },
+  {
+    "description": "Banana, doce em barra",
+    "baseQty": 100,
+    "proteins": 2.2,
+    "carbs": 75.7,
+    "fats": 0.1,
+    "kcals": 280.1
+  },
+  {
+    "description": "Banana, figo, crua",
+    "baseQty": 100,
+    "proteins": 1.1,
+    "carbs": 27.8,
+    "fats": 0.1,
+    "kcals": 105.1
+  },
+  {
+    "description": "Banana, maçã, crua",
+    "baseQty": 100,
+    "proteins": 1.8,
+    "carbs": 22.3,
+    "fats": 0.1,
+    "kcals": 86.8
+  },
+  {
+    "description": "Banana, nanica, crua",
+    "baseQty": 100,
+    "proteins": 1.4,
+    "carbs": 23.8,
+    "fats": 0.1,
+    "kcals": 91.5
+  },
+  {
+    "description": "Banana, ouro, crua",
+    "baseQty": 100,
+    "proteins": 1.5,
+    "carbs": 29.3,
+    "fats": 0.2,
+    "kcals": 112.4
+  },
+  {
+    "description": "Banana, pacova, crua",
+    "baseQty": 100,
+    "proteins": 1.2,
+    "carbs": 20.3,
+    "fats": 0.1,
+    "kcals": 77.9
+  },
+  {
+    "description": "Banana, prata, crua",
+    "baseQty": 100,
+    "proteins": 1.3,
+    "carbs": 26,
+    "fats": 0.1,
+    "kcals": 98.2
+  },
+  {
+    "description": "Cacau, cru",
+    "baseQty": 100,
+    "proteins": 1,
+    "carbs": 19.4,
+    "fats": 0.1,
+    "kcals": 74.3
+  },
+  {
+    "description": "Cajá-Manga, cru",
+    "baseQty": 100,
+    "proteins": 1.3,
+    "carbs": 11.4,
+    "fats": 0,
+    "kcals": 45.6
+  },
+  {
+    "description": "Cajá, polpa, congelada",
+    "baseQty": 100,
+    "proteins": 0.6,
+    "carbs": 6.4,
+    "fats": 0.2,
+    "kcals": 26.3
+  },
+  {
+    "description": "Caju, cru",
+    "baseQty": 100,
+    "proteins": 1,
+    "carbs": 10.3,
+    "fats": 0.3,
+    "kcals": 43.1
+  },
+  {
+    "description": "Caju, polpa, congelada",
+    "baseQty": 100,
+    "proteins": 0.5,
+    "carbs": 9.4,
+    "fats": 0.2,
+    "kcals": 36.6
+  },
+  {
+    "description": "Caju, suco concentrado, envasado",
+    "baseQty": 100,
+    "proteins": 0.4,
+    "carbs": 10.7,
+    "fats": 0.2,
+    "kcals": 45.1
+  },
+  {
+    "description": "Caqui, chocolate, cru",
+    "baseQty": 100,
+    "proteins": 0.4,
+    "carbs": 19.3,
+    "fats": 0.1,
+    "kcals": 71.4
+  },
+  {
+    "description": "Carambola, crua",
+    "baseQty": 100,
+    "proteins": 0.9,
+    "carbs": 11.5,
+    "fats": 0.2,
+    "kcals": 45.7
+  },
+  {
+    "description": "Ciriguela, crua",
+    "baseQty": 100,
+    "proteins": 1.4,
+    "carbs": 18.9,
+    "fats": 0.4,
+    "kcals": 75.6
+  },
+  {
+    "description": "Cupuaçu, cru",
+    "baseQty": 100,
+    "proteins": 1.2,
+    "carbs": 10.4,
+    "fats": 1,
+    "kcals": 49.4
+  },
+  {
+    "description": "Cupuaçu, polpa, congelada",
+    "baseQty": 100,
+    "proteins": 0.8,
+    "carbs": 11.4,
+    "fats": 0.6,
+    "kcals": 48.8
+  },
+  {
+    "description": "Figo, cru",
+    "baseQty": 100,
+    "proteins": 1,
+    "carbs": 10.2,
+    "fats": 0.2,
+    "kcals": 41.4
+  },
+  {
+    "description": "Figo, enlatado, em calda",
+    "baseQty": 100,
+    "proteins": 0.6,
+    "carbs": 50.3,
+    "fats": 0.2,
+    "kcals": 184.4
+  },
+  {
+    "description": "Fruta-pão, crua",
+    "baseQty": 100,
+    "proteins": 1.1,
+    "carbs": 17.2,
+    "fats": 0.2,
+    "kcals": 67
+  },
+  {
+    "description": "Goiaba, branca, com casca, crua",
+    "baseQty": 100,
+    "proteins": 0.9,
+    "carbs": 12.4,
+    "fats": 0.5,
+    "kcals": 51.7
+  },
+  {
+    "description": "Goiaba, doce em pasta",
+    "baseQty": 100,
+    "proteins": 0.6,
+    "carbs": 74.1,
+    "fats": 0,
+    "kcals": 269
+  },
+  {
+    "description": "Goiaba, doce, cascão",
+    "baseQty": 100,
+    "proteins": 0.4,
+    "carbs": 78.7,
+    "fats": 0.1,
+    "kcals": 285.6
+  },
+  {
+    "description": "Goiaba, vermelha, com casca, crua",
+    "baseQty": 100,
+    "proteins": 1.1,
+    "carbs": 13,
+    "fats": 0.4,
+    "kcals": 54.2
+  },
+  {
+    "description": "Graviola, crua",
+    "baseQty": 100,
+    "proteins": 0.8,
+    "carbs": 15.8,
+    "fats": 0.2,
+    "kcals": 61.6
+  },
+  {
+    "description": "Graviola, polpa, congelada",
+    "baseQty": 100,
+    "proteins": 0.6,
+    "carbs": 9.8,
+    "fats": 0.1,
+    "kcals": 38.3
+  },
+  {
+    "description": "Jabuticaba, crua",
+    "baseQty": 100,
+    "proteins": 0.6,
+    "carbs": 15.3,
+    "fats": 0.1,
+    "kcals": 58.1
+  },
+  {
+    "description": "Jaca, crua",
+    "baseQty": 100,
+    "proteins": 1.4,
+    "carbs": 22.5,
+    "fats": 0.3,
+    "kcals": 87.9
+  },
+  {
+    "description": "Jambo, cru",
+    "baseQty": 100,
+    "proteins": 0.9,
+    "carbs": 6.5,
+    "fats": 0.1,
+    "kcals": 26.9
+  },
+  {
+    "description": "Jamelão, cru",
+    "baseQty": 100,
+    "proteins": 0.5,
+    "carbs": 10.6,
+    "fats": 0.1,
+    "kcals": 41
+  },
+  {
+    "description": "Kiwi, cru",
+    "baseQty": 100,
+    "proteins": 1.3,
+    "carbs": 11.5,
+    "fats": 0.6,
+    "kcals": 51.1
+  },
+  {
+    "description": "Laranja, baía, crua",
+    "baseQty": 100,
+    "proteins": 1,
+    "carbs": 11.5,
+    "fats": 0.1,
+    "kcals": 45.4
+  },
+  {
+    "description": "Laranja, baía, suco",
+    "baseQty": 100,
+    "proteins": 0.7,
+    "carbs": 8.7,
+    "fats": 0,
+    "kcals": 36.6
+  },
+  {
+    "description": "Laranja, da terra, crua",
+    "baseQty": 100,
+    "proteins": 1.1,
+    "carbs": 12.9,
+    "fats": 0.2,
+    "kcals": 51.5
+  },
+  {
+    "description": "Laranja, da terra, suco",
+    "baseQty": 100,
+    "proteins": 0.7,
+    "carbs": 9.6,
+    "fats": 0.1,
+    "kcals": 41
+  },
+  {
+    "description": "Laranja, lima, crua",
+    "baseQty": 100,
+    "proteins": 1.1,
+    "carbs": 11.5,
+    "fats": 0.1,
+    "kcals": 45.7
+  },
+  {
+    "description": "Laranja, lima, suco",
+    "baseQty": 100,
+    "proteins": 0.7,
+    "carbs": 9.2,
+    "fats": 0.1,
+    "kcals": 39.3
+  },
+  {
+    "description": "Laranja, pêra, crua",
+    "baseQty": 100,
+    "proteins": 1,
+    "carbs": 8.9,
+    "fats": 0.1,
+    "kcals": 36.8
+  },
+  {
+    "description": "Laranja, pêra, suco",
+    "baseQty": 100,
+    "proteins": 0.7,
+    "carbs": 7.6,
+    "fats": 0.1,
+    "kcals": 32.7
+  },
+  {
+    "description": "Laranja, valência, crua",
+    "baseQty": 100,
+    "proteins": 0.8,
+    "carbs": 11.7,
+    "fats": 0.2,
+    "kcals": 46.1
+  },
+  {
+    "description": "Laranja, valência, suco",
+    "baseQty": 100,
+    "proteins": 0.5,
+    "carbs": 8.6,
+    "fats": 0.1,
+    "kcals": 36.2
+  },
+  {
+    "description": "Limão, cravo, suco",
+    "baseQty": 100,
+    "proteins": 0.3,
+    "carbs": 5.2,
+    "fats": 0,
+    "kcals": 14.1
+  },
+  {
+    "description": "Limão, galego, suco",
+    "baseQty": 100,
+    "proteins": 0.6,
+    "carbs": 7.3,
+    "fats": 0.1,
+    "kcals": 22.2
+  },
+  {
+    "description": "Limão, tahiti, cru",
+    "baseQty": 100,
+    "proteins": 0.9,
+    "carbs": 11.1,
+    "fats": 0.1,
+    "kcals": 31.8
+  },
+  {
+    "description": "Maçã, Argentina, com casca, crua",
+    "baseQty": 100,
+    "proteins": 0.2,
+    "carbs": 16.6,
+    "fats": 0.2,
+    "kcals": 62.5
+  },
+  {
+    "description": "Maçã, Fuji, com casca, crua",
+    "baseQty": 100,
+    "proteins": 0.3,
+    "carbs": 15.2,
+    "fats": 0,
+    "kcals": 55.5
+  },
+  {
+    "description": "Macaúba, crua",
+    "baseQty": 100,
+    "proteins": 2.1,
+    "carbs": 13.9,
+    "fats": 40.7,
+    "kcals": 404.3
+  },
+  {
+    "description": "Mamão, doce em calda, drenado",
+    "baseQty": 100,
+    "proteins": 0.2,
+    "carbs": 54,
+    "fats": 0.1,
+    "kcals": 195.6
+  },
+  {
+    "description": "Mamão, Formosa, cru",
+    "baseQty": 100,
+    "proteins": 0.8,
+    "carbs": 11.6,
+    "fats": 0.1,
+    "kcals": 45.3
+  },
+  {
+    "description": "Mamão, Papaia, cru",
+    "baseQty": 100,
+    "proteins": 0.5,
+    "carbs": 10.4,
+    "fats": 0.1,
+    "kcals": 40.2
+  },
+  {
+    "description": "Mamão verde, doce em calda, drenado",
+    "baseQty": 100,
+    "proteins": 0.3,
+    "carbs": 57.6,
+    "fats": 0.1,
+    "kcals": 209.4
+  },
+  {
+    "description": "Manga, Haden, crua",
+    "baseQty": 100,
+    "proteins": 0.4,
+    "carbs": 16.7,
+    "fats": 0.3,
+    "kcals": 63.5
+  },
+  {
+    "description": "Manga, Palmer, crua",
+    "baseQty": 100,
+    "proteins": 0.4,
+    "carbs": 19.4,
+    "fats": 0.2,
+    "kcals": 72.5
+  },
+  {
+    "description": "Manga, polpa, congelada",
+    "baseQty": 100,
+    "proteins": 0.4,
+    "carbs": 12.5,
+    "fats": 0.2,
+    "kcals": 48.3
+  },
+  {
+    "description": "Manga, Tommy Atkins, crua",
+    "baseQty": 100,
+    "proteins": 0.9,
+    "carbs": 12.8,
+    "fats": 0.2,
+    "kcals": 50.7
+  },
+  {
+    "description": "Maracujá, cru",
+    "baseQty": 100,
+    "proteins": 2,
+    "carbs": 12.3,
+    "fats": 2.1,
+    "kcals": 68.4
+  },
+  {
+    "description": "Maracujá, polpa, congelada",
+    "baseQty": 100,
+    "proteins": 0.8,
+    "carbs": 9.6,
+    "fats": 0.2,
+    "kcals": 38.8
+  },
+  {
+    "description": "Maracujá, suco concentrado, envasado",
+    "baseQty": 100,
+    "proteins": 0.8,
+    "carbs": 9.6,
+    "fats": 0.2,
+    "kcals": 42
+  },
+  {
+    "description": "Melancia, crua",
+    "baseQty": 100,
+    "proteins": 0.9,
+    "carbs": 8.1,
+    "fats": 0,
+    "kcals": 32.6
+  },
+  {
+    "description": "Melão, cru",
+    "baseQty": 100,
+    "proteins": 0.7,
+    "carbs": 7.5,
+    "fats": 0,
+    "kcals": 29.4
+  },
+  {
+    "description": "Mexerica, Murcote, crua",
+    "baseQty": 100,
+    "proteins": 0.9,
+    "carbs": 14.9,
+    "fats": 0.1,
+    "kcals": 57.6
+  },
+  {
+    "description": "Mexerica, Rio, crua",
+    "baseQty": 100,
+    "proteins": 0.7,
+    "carbs": 9.3,
+    "fats": 0.1,
+    "kcals": 36.9
+  },
+  {
+    "description": "Morango, cru",
+    "baseQty": 100,
+    "proteins": 0.9,
+    "carbs": 6.8,
+    "fats": 0.3,
+    "kcals": 30.1
+  },
+  {
+    "description": "Nêspera, crua",
+    "baseQty": 100,
+    "proteins": 0.3,
+    "carbs": 11.5,
+    "fats": 0,
+    "kcals": 42.5
+  },
+  {
+    "description": "Pequi, cru",
+    "baseQty": 100,
+    "proteins": 2.3,
+    "carbs": 13,
+    "fats": 18,
+    "kcals": 205
+  },
+  {
+    "description": "Pêra, Park, crua",
+    "baseQty": 100,
+    "proteins": 0.2,
+    "carbs": 16.1,
+    "fats": 0.2,
+    "kcals": 60.6
+  },
+  {
+    "description": "Pêra, Williams, crua",
+    "baseQty": 100,
+    "proteins": 0.6,
+    "carbs": 14,
+    "fats": 0.1,
+    "kcals": 53.3
+  },
+  {
+    "description": "Pêssego, Aurora, cru",
+    "baseQty": 100,
+    "proteins": 0.8,
+    "carbs": 9.3,
+    "fats": 0,
+    "kcals": 36.3
+  },
+  {
+    "description": "Pêssego, enlatado, em calda",
+    "baseQty": 100,
+    "proteins": 0.7,
+    "carbs": 16.9,
+    "fats": 0,
+    "kcals": 63.1
+  },
+  {
+    "description": "Pinha, crua",
+    "baseQty": 100,
+    "proteins": 1.5,
+    "carbs": 22.4,
+    "fats": 0.3,
+    "kcals": 88.5
+  },
+  {
+    "description": "Pitanga, crua",
+    "baseQty": 100,
+    "proteins": 0.9,
+    "carbs": 10.2,
+    "fats": 0.2,
+    "kcals": 41.4
+  },
+  {
+    "description": "Pitanga, polpa, congelada",
+    "baseQty": 100,
+    "proteins": 0.3,
+    "carbs": 4.8,
+    "fats": 0.1,
+    "kcals": 19.1
+  },
+  {
+    "description": "Romã, crua",
+    "baseQty": 100,
+    "proteins": 0.4,
+    "carbs": 15.1,
+    "fats": 0,
+    "kcals": 55.7
+  },
+  {
+    "description": "Tamarindo, cru",
+    "baseQty": 100,
+    "proteins": 3.2,
+    "carbs": 72.5,
+    "fats": 0.5,
+    "kcals": 275.7
+  },
+  {
+    "description": "Tangerina, Poncã, crua",
+    "baseQty": 100,
+    "proteins": 0.8,
+    "carbs": 9.6,
+    "fats": 0.1,
+    "kcals": 37.8
+  },
+  {
+    "description": "Tangerina, Poncã, suco",
+    "baseQty": 100,
+    "proteins": 0.5,
+    "carbs": 8.8,
+    "fats": 0,
+    "kcals": 36.1
+  },
+  {
+    "description": "Tucumã, cru",
+    "baseQty": 100,
+    "proteins": 2.1,
+    "carbs": 26.5,
+    "fats": 19.1,
+    "kcals": 262
+  },
+  {
+    "description": "Umbu, cru",
+    "baseQty": 100,
+    "proteins": 0.8,
+    "carbs": 9.4,
+    "fats": 0,
+    "kcals": 37
+  },
+  {
+    "description": "Umbu, polpa, congelada",
+    "baseQty": 100,
+    "proteins": 0.5,
+    "carbs": 8.8,
+    "fats": 0.1,
+    "kcals": 33.9
+  },
+  {
+    "description": "Uva, Itália, crua",
+    "baseQty": 100,
+    "proteins": 0.7,
+    "carbs": 13.6,
+    "fats": 0.2,
+    "kcals": 52.9
+  },
+  {
+    "description": "Uva, Rubi, crua",
+    "baseQty": 100,
+    "proteins": 0.6,
+    "carbs": 12.7,
+    "fats": 0.2,
+    "kcals": 49.1
+  },
+  {
+    "description": "Uva, suco concentrado, envasado",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 14.7,
+    "fats": 0,
+    "kcals": 57.7
+  },
+  {
+    "description": "Azeite, de dendê",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 0,
+    "fats": 100,
+    "kcals": 884
+  },
+  {
+    "description": "Azeite, de oliva, extra virgem",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 0,
+    "fats": 100,
+    "kcals": 884
+  },
+  {
+    "description": "Manteiga, com sal",
+    "baseQty": 100,
+    "proteins": 0.4,
+    "carbs": 0.1,
+    "fats": 82.4,
+    "kcals": 726
+  },
+  {
+    "description": "Manteiga, sem sal",
+    "baseQty": 100,
+    "proteins": 0.4,
+    "carbs": 0,
+    "fats": 86,
+    "kcals": 757.5
+  },
+  {
+    "description": "Margarina, com óleo hidrogenado, com sal (65% de lipídeos)",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 0,
+    "fats": 67.4,
+    "kcals": 596.1
+  },
+  {
+    "description": "Margarina, com óleo hidrogenado, sem sal (80% de lipídeos)",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 0,
+    "fats": 81.7,
+    "kcals": 722.5
+  },
+  {
+    "description": "Margarina, com óleo interesterificado, com sal (65%de lipídeos)",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 0,
+    "fats": 67.2,
+    "kcals": 594.5
+  },
+  {
+    "description": "Margarina, com óleo interesterificado, sem sal (65% de lipídeos)",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 0,
+    "fats": 67.1,
+    "kcals": 593.1
+  },
+  {
+    "description": "Óleo, de babaçu",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 0,
+    "fats": 100,
+    "kcals": 884
+  },
+  {
+    "description": "Óleo, de canola",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 0,
+    "fats": 100,
+    "kcals": 884
+  },
+  {
+    "description": "Óleo, de girassol",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 0,
+    "fats": 100,
+    "kcals": 884
+  },
+  {
+    "description": "Óleo, de milho",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 0,
+    "fats": 100,
+    "kcals": 884
+  },
+  {
+    "description": "Óleo, de pequi",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 0,
+    "fats": 100,
+    "kcals": 884
+  },
+  {
+    "description": "Óleo, de soja",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 0,
+    "fats": 100,
+    "kcals": 884
+  },
+  {
+    "description": "Abadejo, filé, congelado, assado",
+    "baseQty": 100,
+    "proteins": 23.5,
+    "carbs": 0,
+    "fats": 1.2,
+    "kcals": 111.6
+  },
+  {
+    "description": "Abadejo, filé, congelado,cozido",
+    "baseQty": 100,
+    "proteins": 19.3,
+    "carbs": 0,
+    "fats": 0.9,
+    "kcals": 91.1
+  },
+  {
+    "description": "Abadejo, filé, congelado, cru",
+    "baseQty": 100,
+    "proteins": 13.1,
+    "carbs": 0,
+    "fats": 0.4,
+    "kcals": 59.1
+  },
+  {
+    "description": "Abadejo, filé, congelado, grelhado",
+    "baseQty": 100,
+    "proteins": 27.6,
+    "carbs": 0,
+    "fats": 1.3,
+    "kcals": 129.6
+  },
+  {
+    "description": "Atum, conserva em óleo",
+    "baseQty": 100,
+    "proteins": 26.2,
+    "carbs": 0,
+    "fats": 6,
+    "kcals": 165.9
+  },
+  {
+    "description": "Atum, fresco, cru",
+    "baseQty": 100,
+    "proteins": 25.7,
+    "carbs": 0,
+    "fats": 0.9,
+    "kcals": 117.5
+  },
+  {
+    "description": "Bacalhau, salgado, cru",
+    "baseQty": 100,
+    "proteins": 29,
+    "carbs": 0,
+    "fats": 1.3,
+    "kcals": 135.9
+  },
+  {
+    "description": "Bacalhau, salgado, refogado",
+    "baseQty": 100,
+    "proteins": 24,
+    "carbs": 1.2,
+    "fats": 3.6,
+    "kcals": 139.7
+  },
+  {
+    "description": "Cação, posta, com farinha de trigo, frita",
+    "baseQty": 100,
+    "proteins": 25,
+    "carbs": 3.1,
+    "fats": 10,
+    "kcals": 208.3
+  },
+  {
+    "description": "Cação, posta, cozida",
+    "baseQty": 100,
+    "proteins": 25.6,
+    "carbs": 0,
+    "fats": 0.7,
+    "kcals": 116
+  },
+  {
+    "description": "Cação, posta, crua",
+    "baseQty": 100,
+    "proteins": 17.9,
+    "carbs": 0,
+    "fats": 0.8,
+    "kcals": 83.3
+  },
+  {
+    "description": "Camarão, Rio Grande, grande, cozido",
+    "baseQty": 100,
+    "proteins": 19,
+    "carbs": 0,
+    "fats": 1,
+    "kcals": 90
+  },
+  {
+    "description": "Camarão, Rio Grande, grande, cru",
+    "baseQty": 100,
+    "proteins": 10,
+    "carbs": 0,
+    "fats": 0.5,
+    "kcals": 47.2
+  },
+  {
+    "description": "Camarão, Sete Barbas, sem cabeça, com casca, frito",
+    "baseQty": 100,
+    "proteins": 18.4,
+    "carbs": 2.9,
+    "fats": 15.6,
+    "kcals": 231.2
+  },
+  {
+    "description": "Caranguejo, cozido",
+    "baseQty": 100,
+    "proteins": 18.5,
+    "carbs": 0,
+    "fats": 0.4,
+    "kcals": 82.7
+  },
+  {
+    "description": "Corimba, cru",
+    "baseQty": 100,
+    "proteins": 17.4,
+    "carbs": 0,
+    "fats": 6,
+    "kcals": 128.2
+  },
+  {
+    "description": "Corimbatá, assado",
+    "baseQty": 100,
+    "proteins": 19.9,
+    "carbs": 0,
+    "fats": 19.6,
+    "kcals": 261.5
+  },
+  {
+    "description": "Corimbatá, cozido",
+    "baseQty": 100,
+    "proteins": 20.1,
+    "carbs": 0,
+    "fats": 16.9,
+    "kcals": 238.7
+  },
+  {
+    "description": "Corvina de água doce, crua",
+    "baseQty": 100,
+    "proteins": 18.9,
+    "carbs": 0,
+    "fats": 2.2,
+    "kcals": 101
+  },
+  {
+    "description": "Corvina do mar, crua",
+    "baseQty": 100,
+    "proteins": 18.6,
+    "carbs": 0,
+    "fats": 1.6,
+    "kcals": 94
+  },
+  {
+    "description": "Corvina grande, assada",
+    "baseQty": 100,
+    "proteins": 26.8,
+    "carbs": 0,
+    "fats": 3.6,
+    "kcals": 146.5
+  },
+  {
+    "description": "Corvina grande, cozida",
+    "baseQty": 100,
+    "proteins": 23.4,
+    "carbs": 0,
+    "fats": 2.6,
+    "kcals": 100.1
+  },
+  {
+    "description": "Dourada de água doce, fresca",
+    "baseQty": 100,
+    "proteins": 18.8,
+    "carbs": 0,
+    "fats": 5.6,
+    "kcals": 131.2
+  },
+  {
+    "description": "Lambari, congelado, cru",
+    "baseQty": 100,
+    "proteins": 16.8,
+    "carbs": 0,
+    "fats": 6.5,
+    "kcals": 130.8
+  },
+  {
+    "description": "Lambari, congelado, frito",
+    "baseQty": 100,
+    "proteins": 28.4,
+    "carbs": 0,
+    "fats": 22.8,
+    "kcals": 326.9
+  },
+  {
+    "description": "Lambari, fresco,cru",
+    "baseQty": 100,
+    "proteins": 15.7,
+    "carbs": 0,
+    "fats": 9.4,
+    "kcals": 151.6
+  },
+  {
+    "description": "Manjuba, com farinha de trigo, frita",
+    "baseQty": 100,
+    "proteins": 23.5,
+    "carbs": 10.2,
+    "fats": 22.6,
+    "kcals": 343.6
+  },
+  {
+    "description": "Manjuba, frita",
+    "baseQty": 100,
+    "proteins": 30.1,
+    "carbs": 0,
+    "fats": 24.5,
+    "kcals": 349.3
+  },
+  {
+    "description": "Merluza, filé, assado",
+    "baseQty": 100,
+    "proteins": 26.6,
+    "carbs": 0,
+    "fats": 0.9,
+    "kcals": 121.9
+  },
+  {
+    "description": "Merluza, filé, cru",
+    "baseQty": 100,
+    "proteins": 16.6,
+    "carbs": 0,
+    "fats": 2,
+    "kcals": 89.1
+  },
+  {
+    "description": "Merluza, filé, frito",
+    "baseQty": 100,
+    "proteins": 26.9,
+    "carbs": 0,
+    "fats": 8.5,
+    "kcals": 191.6
+  },
+  {
+    "description": "Pescada, branca, crua",
+    "baseQty": 100,
+    "proteins": 16.3,
+    "carbs": 0,
+    "fats": 4.6,
+    "kcals": 110.9
+  },
+  {
+    "description": "Pescada, branca, frita",
+    "baseQty": 100,
+    "proteins": 27.4,
+    "carbs": 0,
+    "fats": 11.8,
+    "kcals": 223
+  },
+  {
+    "description": "Pescada, filé, com farinha de trigo, frito",
+    "baseQty": 100,
+    "proteins": 21.4,
+    "carbs": 5,
+    "fats": 19.1,
+    "kcals": 283.4
+  },
+  {
+    "description": "Pescada, filé, cru",
+    "baseQty": 100,
+    "proteins": 16.7,
+    "carbs": 0,
+    "fats": 4,
+    "kcals": 107.2
+  },
+  {
+    "description": "Pescada, filé, frito",
+    "baseQty": 100,
+    "proteins": 28.6,
+    "carbs": 0,
+    "fats": 3.6,
+    "kcals": 154.3
+  },
+  {
+    "description": "Pescada, filé, molho escabeche",
+    "baseQty": 100,
+    "proteins": 11.8,
+    "carbs": 5,
+    "fats": 8,
+    "kcals": 142
+  },
+  {
+    "description": "Pescadinha, crua",
+    "baseQty": 100,
+    "proteins": 15.5,
+    "carbs": 0,
+    "fats": 1.1,
+    "kcals": 76.4
+  },
+  {
+    "description": "Pintado, assado",
+    "baseQty": 100,
+    "proteins": 36.5,
+    "carbs": 0,
+    "fats": 4,
+    "kcals": 191.6
+  },
+  {
+    "description": "Pintado, cru",
+    "baseQty": 100,
+    "proteins": 18.6,
+    "carbs": 0,
+    "fats": 1.3,
+    "kcals": 91.1
+  },
+  {
+    "description": "Pintado, grelhado",
+    "baseQty": 100,
+    "proteins": 30.8,
+    "carbs": 0,
+    "fats": 2.3,
+    "kcals": 152.2
+  },
+  {
+    "description": "Porquinho, cru",
+    "baseQty": 100,
+    "proteins": 20.5,
+    "carbs": 0,
+    "fats": 0.6,
+    "kcals": 93
+  },
+  {
+    "description": "Salmão, filé, com pele, fresco,  grelhado",
+    "baseQty": 100,
+    "proteins": 23.9,
+    "carbs": 0,
+    "fats": 14,
+    "kcals": 228.7
+  },
+  {
+    "description": "Salmão, sem pele, fresco, cru",
+    "baseQty": 100,
+    "proteins": 19.3,
+    "carbs": 0,
+    "fats": 9.7,
+    "kcals": 169.8
+  },
+  {
+    "description": "Salmão, sem pele, fresco, grelhado",
+    "baseQty": 100,
+    "proteins": 26.1,
+    "carbs": 0,
+    "fats": 14.5,
+    "kcals": 242.7
+  },
+  {
+    "description": "Sardinha, assada",
+    "baseQty": 100,
+    "proteins": 32.2,
+    "carbs": 0,
+    "fats": 3,
+    "kcals": 164.4
+  },
+  {
+    "description": "Sardinha, conserva em óleo",
+    "baseQty": 100,
+    "proteins": 15.9,
+    "carbs": 0,
+    "fats": 24,
+    "kcals": 285
+  },
+  {
+    "description": "Sardinha, frita",
+    "baseQty": 100,
+    "proteins": 33.4,
+    "carbs": 0,
+    "fats": 12.7,
+    "kcals": 257
+  },
+  {
+    "description": "Sardinha, inteira, crua",
+    "baseQty": 100,
+    "proteins": 21.1,
+    "carbs": 0,
+    "fats": 2.7,
+    "kcals": 113.9
+  },
+  {
+    "description": "Tucunaré, filé, congelado, cru",
+    "baseQty": 100,
+    "proteins": 18,
+    "carbs": 0,
+    "fats": 1.2,
+    "kcals": 87.7
+  },
+  {
+    "description": "Apresuntado",
+    "baseQty": 100,
+    "proteins": 13.5,
+    "carbs": 2.9,
+    "fats": 6.7,
+    "kcals": 128.9
+  },
+  {
+    "description": "Caldo de carne, tablete",
+    "baseQty": 100,
+    "proteins": 7.8,
+    "carbs": 15.1,
+    "fats": 16.6,
+    "kcals": 240.6
+  },
+  {
+    "description": "Caldo de galinha, tablete",
+    "baseQty": 100,
+    "proteins": 6.3,
+    "carbs": 10.6,
+    "fats": 20.4,
+    "kcals": 251.4
+  },
+  {
+    "description": "Carne, bovina, acém, moído, cozido",
+    "baseQty": 100,
+    "proteins": 26.7,
+    "carbs": 0,
+    "fats": 10.9,
+    "kcals": 212.4
+  },
+  {
+    "description": "Carne, bovina, acém, moído, cru",
+    "baseQty": 100,
+    "proteins": 19.4,
+    "carbs": 0,
+    "fats": 5.9,
+    "kcals": 136.6
+  },
+  {
+    "description": "Carne, bovina, acém, sem gordura, cozido",
+    "baseQty": 100,
+    "proteins": 27.3,
+    "carbs": 0,
+    "fats": 10.9,
+    "kcals": 214.6
+  },
+  {
+    "description": "Carne, bovina, acém, sem gordura, cru",
+    "baseQty": 100,
+    "proteins": 20.8,
+    "carbs": 0,
+    "fats": 6.1,
+    "kcals": 144
+  },
+  {
+    "description": "Carne, bovina, almôndegas, cruas",
+    "baseQty": 100,
+    "proteins": 12.3,
+    "carbs": 9.8,
+    "fats": 11.2,
+    "kcals": 189.3
+  },
+  {
+    "description": "Carne, bovina, almôndegas, fritas",
+    "baseQty": 100,
+    "proteins": 18.2,
+    "carbs": 14.3,
+    "fats": 15.8,
+    "kcals": 271.8
+  },
+  {
+    "description": "Carne, bovina, bucho, cozido",
+    "baseQty": 100,
+    "proteins": 21.6,
+    "carbs": 0,
+    "fats": 4.5,
+    "kcals": 133
+  },
+  {
+    "description": "Carne, bovina, bucho, cru",
+    "baseQty": 100,
+    "proteins": 20.5,
+    "carbs": 0,
+    "fats": 5.5,
+    "kcals": 137.3
+  },
+  {
+    "description": "Carne, bovina, capa de contra-filé, com gordura, crua",
+    "baseQty": 100,
+    "proteins": 19.2,
+    "carbs": 0,
+    "fats": 15,
+    "kcals": 216.9
+  },
+  {
+    "description": "Carne, bovina, capa de contra-filé, com gordura, grelhada",
+    "baseQty": 100,
+    "proteins": 30.7,
+    "carbs": 0,
+    "fats": 20,
+    "kcals": 311.7
+  },
+  {
+    "description": "Carne, bovina, capa de contra-filé, sem gordura, crua",
+    "baseQty": 100,
+    "proteins": 21.5,
+    "carbs": 0,
+    "fats": 4.3,
+    "kcals": 131.1
+  },
+  {
+    "description": "Carne, bovina, capa de contra-filé, sem gordura, grelhada",
+    "baseQty": 100,
+    "proteins": 35.1,
+    "carbs": 0,
+    "fats": 10,
+    "kcals": 239.4
+  },
+  {
+    "description": "Carne, bovina, charque, cozido",
+    "baseQty": 100,
+    "proteins": 36.4,
+    "carbs": 0,
+    "fats": 11.9,
+    "kcals": 262.8
+  },
+  {
+    "description": "Carne, bovina, charque, cru",
+    "baseQty": 100,
+    "proteins": 22.7,
+    "carbs": 0,
+    "fats": 16.8,
+    "kcals": 248.9
+  },
+  {
+    "description": "Carne, bovina, contra-filé, à milanesa",
+    "baseQty": 100,
+    "proteins": 20.6,
+    "carbs": 12.2,
+    "fats": 24,
+    "kcals": 351.6
+  },
+  {
+    "description": "Carne, bovina, contra-filé de costela, cru",
+    "baseQty": 100,
+    "proteins": 19.8,
+    "carbs": 0,
+    "fats": 13.1,
+    "kcals": 202.4
+  },
+  {
+    "description": "Carne, bovina, contra-filé de costela, grelhado",
+    "baseQty": 100,
+    "proteins": 29.9,
+    "carbs": 0,
+    "fats": 16.3,
+    "kcals": 274.9
+  },
+  {
+    "description": "Carne, bovina, contra-filé, com gordura, cru",
+    "baseQty": 100,
+    "proteins": 21.2,
+    "carbs": 0,
+    "fats": 12.8,
+    "kcals": 205.9
+  },
+  {
+    "description": "Carne, bovina, contra-filé, com gordura, grelhado",
+    "baseQty": 100,
+    "proteins": 32.4,
+    "carbs": 0,
+    "fats": 15.5,
+    "kcals": 278.1
+  },
+  {
+    "description": "Carne, bovina, contra-filé, sem gordura, cru",
+    "baseQty": 100,
+    "proteins": 24,
+    "carbs": 0,
+    "fats": 6,
+    "kcals": 156.6
+  },
+  {
+    "description": "Carne, bovina, contra-filé, sem gordura, grelhado",
+    "baseQty": 100,
+    "proteins": 35.9,
+    "carbs": 0,
+    "fats": 4.5,
+    "kcals": 193.7
+  },
+  {
+    "description": "Carne, bovina, costela, assada",
+    "baseQty": 100,
+    "proteins": 28.8,
+    "carbs": 0,
+    "fats": 27.7,
+    "kcals": 373
+  },
+  {
+    "description": "Carne, bovina, costela, crua",
+    "baseQty": 100,
+    "proteins": 16.7,
+    "carbs": 0,
+    "fats": 31.8,
+    "kcals": 357.7
+  },
+  {
+    "description": "Carne, bovina, coxão duro, sem gordura, cozido",
+    "baseQty": 100,
+    "proteins": 31.9,
+    "carbs": 0,
+    "fats": 8.9,
+    "kcals": 216.6
+  },
+  {
+    "description": "Carne, bovina, coxão duro, sem gordura, cru",
+    "baseQty": 100,
+    "proteins": 21.5,
+    "carbs": 0,
+    "fats": 6.2,
+    "kcals": 148
+  },
+  {
+    "description": "Carne, bovina, coxão mole, sem gordura, cozido",
+    "baseQty": 100,
+    "proteins": 32.4,
+    "carbs": 0,
+    "fats": 8.9,
+    "kcals": 218.7
+  },
+  {
+    "description": "Carne, bovina, coxão mole, sem gordura, cru",
+    "baseQty": 100,
+    "proteins": 21.2,
+    "carbs": 0,
+    "fats": 8.7,
+    "kcals": 169.1
+  },
+  {
+    "description": "Carne, bovina, cupim, assado",
+    "baseQty": 100,
+    "proteins": 28.6,
+    "carbs": 0,
+    "fats": 23,
+    "kcals": 330.1
+  },
+  {
+    "description": "Carne, bovina, cupim, cru",
+    "baseQty": 100,
+    "proteins": 19.5,
+    "carbs": 0,
+    "fats": 15.3,
+    "kcals": 221.4
+  },
+  {
+    "description": "Carne, bovina, fígado, cru",
+    "baseQty": 100,
+    "proteins": 20.7,
+    "carbs": 1.1,
+    "fats": 5.4,
+    "kcals": 141
+  },
+  {
+    "description": "Carne, bovina, fígado, grelhado",
+    "baseQty": 100,
+    "proteins": 29.9,
+    "carbs": 4.2,
+    "fats": 9,
+    "kcals": 225
+  },
+  {
+    "description": "Carne, bovina, filé mingnon, sem gordura, cru",
+    "baseQty": 100,
+    "proteins": 21.6,
+    "carbs": 0,
+    "fats": 5.6,
+    "kcals": 142.9
+  },
+  {
+    "description": "Carne, bovina, filé mingnon, sem gordura, grelhado",
+    "baseQty": 100,
+    "proteins": 32.8,
+    "carbs": 0,
+    "fats": 8.8,
+    "kcals": 219.7
+  },
+  {
+    "description": "Carne, bovina, flanco, sem gordura, cozido",
+    "baseQty": 100,
+    "proteins": 29.4,
+    "carbs": 0,
+    "fats": 7.8,
+    "kcals": 195.6
+  },
+  {
+    "description": "Carne, bovina, flanco, sem gordura, cru",
+    "baseQty": 100,
+    "proteins": 20,
+    "carbs": 0,
+    "fats": 6.2,
+    "kcals": 141.5
+  },
+  {
+    "description": "Carne, bovina, fraldinha, com gordura, cozida",
+    "baseQty": 100,
+    "proteins": 24.2,
+    "carbs": 0,
+    "fats": 26,
+    "kcals": 338.4
+  },
+  {
+    "description": "Carne, bovina, fraldinha, com gordura, crua",
+    "baseQty": 100,
+    "proteins": 17.6,
+    "carbs": 0,
+    "fats": 16.1,
+    "kcals": 220.7
+  },
+  {
+    "description": "Carne, bovina, lagarto, cozido",
+    "baseQty": 100,
+    "proteins": 32.9,
+    "carbs": 0,
+    "fats": 9.1,
+    "kcals": 222.5
+  },
+  {
+    "description": "Carne, bovina, lagarto, cru",
+    "baseQty": 100,
+    "proteins": 20.5,
+    "carbs": 0,
+    "fats": 5.2,
+    "kcals": 134.9
+  },
+  {
+    "description": "Carne, bovina, língua, cozida",
+    "baseQty": 100,
+    "proteins": 21.4,
+    "carbs": 0,
+    "fats": 24.8,
+    "kcals": 314.9
+  },
+  {
+    "description": "Carne, bovina, língua, crua",
+    "baseQty": 100,
+    "proteins": 17.1,
+    "carbs": 0,
+    "fats": 15.8,
+    "kcals": 215.2
+  },
+  {
+    "description": "Carne, bovina, maminha, crua",
+    "baseQty": 100,
+    "proteins": 20.9,
+    "carbs": 0,
+    "fats": 7,
+    "kcals": 152.8
+  },
+  {
+    "description": "Carne, bovina, maminha, grelhada",
+    "baseQty": 100,
+    "proteins": 30.7,
+    "carbs": 0,
+    "fats": 2.4,
+    "kcals": 153.1
+  },
+  {
+    "description": "Carne, bovina, miolo de alcatra, sem gordura, cru",
+    "baseQty": 100,
+    "proteins": 21.6,
+    "carbs": 0,
+    "fats": 7.8,
+    "kcals": 162.9
+  },
+  {
+    "description": "Carne, bovina, miolo de alcatra, sem gordura, grelhado",
+    "baseQty": 100,
+    "proteins": 31.9,
+    "carbs": 0,
+    "fats": 11.6,
+    "kcals": 241.4
+  },
+  {
+    "description": "Carne, bovina, músculo, sem gordura, cozido",
+    "baseQty": 100,
+    "proteins": 31.2,
+    "carbs": 0,
+    "fats": 6.7,
+    "kcals": 193.8
+  },
+  {
+    "description": "Carne, bovina, músculo, sem gordura, cru",
+    "baseQty": 100,
+    "proteins": 21.6,
+    "carbs": 0,
+    "fats": 5.5,
+    "kcals": 141.6
+  },
+  {
+    "description": "Carne, bovina, paleta, com gordura, crua",
+    "baseQty": 100,
+    "proteins": 21.4,
+    "carbs": 0,
+    "fats": 7.5,
+    "kcals": 158.7
+  },
+  {
+    "description": "Carne, bovina, paleta, sem gordura, cozida",
+    "baseQty": 100,
+    "proteins": 29.7,
+    "carbs": 0,
+    "fats": 7.4,
+    "kcals": 193.7
+  },
+  {
+    "description": "Carne, bovina, paleta, sem gordura, crua",
+    "baseQty": 100,
+    "proteins": 21,
+    "carbs": 0,
+    "fats": 5.7,
+    "kcals": 140.9
+  },
+  {
+    "description": "Carne, bovina, patinho, sem gordura, cru",
+    "baseQty": 100,
+    "proteins": 21.7,
+    "carbs": 0,
+    "fats": 4.5,
+    "kcals": 133.5
+  },
+  {
+    "description": "Carne, bovina, patinho, sem gordura, grelhado",
+    "baseQty": 100,
+    "proteins": 35.9,
+    "carbs": 0,
+    "fats": 7.3,
+    "kcals": 219.3
+  },
+  {
+    "description": "Carne, bovina, peito, sem gordura, cozido",
+    "baseQty": 100,
+    "proteins": 22.2,
+    "carbs": 0,
+    "fats": 27,
+    "kcals": 338.5
+  },
+  {
+    "description": "Carne, bovina, peito, sem gordura, cru",
+    "baseQty": 100,
+    "proteins": 17.6,
+    "carbs": 0,
+    "fats": 20.4,
+    "kcals": 259.3
+  },
+  {
+    "description": "Carne, bovina, picanha, com gordura, crua",
+    "baseQty": 100,
+    "proteins": 18.8,
+    "carbs": 0,
+    "fats": 14.7,
+    "kcals": 212.9
+  },
+  {
+    "description": "Carne, bovina, picanha, com gordura, grelhada",
+    "baseQty": 100,
+    "proteins": 26.4,
+    "carbs": 0,
+    "fats": 19.5,
+    "kcals": 288.8
+  },
+  {
+    "description": "Carne, bovina, picanha, sem gordura, crua",
+    "baseQty": 100,
+    "proteins": 21.3,
+    "carbs": 0,
+    "fats": 4.7,
+    "kcals": 133.5
+  },
+  {
+    "description": "Carne, bovina, picanha, sem gordura, grelhada",
+    "baseQty": 100,
+    "proteins": 31.9,
+    "carbs": 0,
+    "fats": 11.3,
+    "kcals": 238.5
+  },
+  {
+    "description": "Carne, bovina, seca, cozida",
+    "baseQty": 100,
+    "proteins": 26.9,
+    "carbs": 0,
+    "fats": 21.9,
+    "kcals": 312.8
+  },
+  {
+    "description": "Carne, bovina, seca, crua",
+    "baseQty": 100,
+    "proteins": 19.7,
+    "carbs": 0,
+    "fats": 25.4,
+    "kcals": 312.7
+  },
+  {
+    "description": "Coxinha de frango, frita",
+    "baseQty": 100,
+    "proteins": 9.6,
+    "carbs": 34.5,
+    "fats": 11.8,
+    "kcals": 283
+  },
+  {
+    "description": "Croquete, de carne, cru",
+    "baseQty": 100,
+    "proteins": 12,
+    "carbs": 13.9,
+    "fats": 15.6,
+    "kcals": 245.8
+  },
+  {
+    "description": "Croquete, de carne, frito",
+    "baseQty": 100,
+    "proteins": 16.9,
+    "carbs": 18.1,
+    "fats": 22.7,
+    "kcals": 346.7
+  },
+  {
+    "description": "Empada de frango, pré-cozida, assada",
+    "baseQty": 100,
+    "proteins": 6.9,
+    "carbs": 47.5,
+    "fats": 15.6,
+    "kcals": 358.2
+  },
+  {
+    "description": "Empada, de frango, pré-cozida",
+    "baseQty": 100,
+    "proteins": 7.3,
+    "carbs": 35.5,
+    "fats": 22.9,
+    "kcals": 377.5
+  },
+  {
+    "description": "Frango, asa, com pele, crua",
+    "baseQty": 100,
+    "proteins": 18.1,
+    "carbs": 0,
+    "fats": 15.1,
+    "kcals": 213.2
+  },
+  {
+    "description": "Frango, caipira, inteiro, com pele, cozido",
+    "baseQty": 100,
+    "proteins": 23.9,
+    "carbs": 0,
+    "fats": 15.6,
+    "kcals": 242.9
+  },
+  {
+    "description": "Frango, caipira, inteiro, sem pele, cozido",
+    "baseQty": 100,
+    "proteins": 29.6,
+    "carbs": 0,
+    "fats": 7.7,
+    "kcals": 195.8
+  },
+  {
+    "description": "Frango, coração, cru",
+    "baseQty": 100,
+    "proteins": 12.6,
+    "carbs": 0,
+    "fats": 18.6,
+    "kcals": 221.5
+  },
+  {
+    "description": "Frango, coração, grelhado",
+    "baseQty": 100,
+    "proteins": 22.4,
+    "carbs": 0.6,
+    "fats": 12.1,
+    "kcals": 207.3
+  },
+  {
+    "description": "Frango, coxa, com pele, assada",
+    "baseQty": 100,
+    "proteins": 28.5,
+    "carbs": 0.1,
+    "fats": 10.4,
+    "kcals": 215.1
+  },
+  {
+    "description": "Frango, coxa, com pele, crua",
+    "baseQty": 100,
+    "proteins": 17.1,
+    "carbs": 0,
+    "fats": 9.8,
+    "kcals": 161.5
+  },
+  {
+    "description": "Frango, coxa, sem pele, cozida",
+    "baseQty": 100,
+    "proteins": 26.9,
+    "carbs": 0,
+    "fats": 5.8,
+    "kcals": 167.4
+  },
+  {
+    "description": "Frango, coxa, sem pele, crua",
+    "baseQty": 100,
+    "proteins": 17.8,
+    "carbs": 0,
+    "fats": 4.9,
+    "kcals": 119.9
+  },
+  {
+    "description": "Frango, fígado, cru",
+    "baseQty": 100,
+    "proteins": 17.6,
+    "carbs": 0,
+    "fats": 3.5,
+    "kcals": 106.5
+  },
+  {
+    "description": "Frango, filé, à milanesa",
+    "baseQty": 100,
+    "proteins": 28.5,
+    "carbs": 7.5,
+    "fats": 7.8,
+    "kcals": 220.9
+  },
+  {
+    "description": "Frango, inteiro, com pele, cru",
+    "baseQty": 100,
+    "proteins": 16.4,
+    "carbs": 0,
+    "fats": 17.3,
+    "kcals": 226.3
+  },
+  {
+    "description": "Frango, inteiro, sem pele, assado",
+    "baseQty": 100,
+    "proteins": 28,
+    "carbs": 0,
+    "fats": 7.5,
+    "kcals": 187.3
+  },
+  {
+    "description": "Frango, inteiro, sem pele, cozido",
+    "baseQty": 100,
+    "proteins": 25,
+    "carbs": 0,
+    "fats": 7.1,
+    "kcals": 170.4
+  },
+  {
+    "description": "Frango, inteiro, sem pele, cru",
+    "baseQty": 100,
+    "proteins": 20.6,
+    "carbs": 0,
+    "fats": 4.6,
+    "kcals": 129.1
+  },
+  {
+    "description": "Frango, peito, com pele, assado",
+    "baseQty": 100,
+    "proteins": 33.4,
+    "carbs": 0,
+    "fats": 7.6,
+    "kcals": 211.7
+  },
+  {
+    "description": "Frango, peito, com pele, cru",
+    "baseQty": 100,
+    "proteins": 20.8,
+    "carbs": 0,
+    "fats": 6.7,
+    "kcals": 149.5
+  },
+  {
+    "description": "Frango, peito, sem pele, cozido",
+    "baseQty": 100,
+    "proteins": 31.5,
+    "carbs": 0,
+    "fats": 3.2,
+    "kcals": 162.9
+  },
+  {
+    "description": "Frango, peito, sem pele, cru",
+    "baseQty": 100,
+    "proteins": 21.5,
+    "carbs": 0,
+    "fats": 3,
+    "kcals": 119.2
+  },
+  {
+    "description": "Frango, peito, sem pele, grelhado",
+    "baseQty": 100,
+    "proteins": 32,
+    "carbs": 0,
+    "fats": 2.5,
+    "kcals": 159.2
+  },
+  {
+    "description": "Frango, sobrecoxa, com pele, assada",
+    "baseQty": 100,
+    "proteins": 28.7,
+    "carbs": 0,
+    "fats": 15.2,
+    "kcals": 259.6
+  },
+  {
+    "description": "Frango, sobrecoxa, com pele, crua",
+    "baseQty": 100,
+    "proteins": 15.5,
+    "carbs": 0,
+    "fats": 20.9,
+    "kcals": 254.5
+  },
+  {
+    "description": "Frango, sobrecoxa, sem pele, assada",
+    "baseQty": 100,
+    "proteins": 29.2,
+    "carbs": 0,
+    "fats": 12,
+    "kcals": 232.9
+  },
+  {
+    "description": "Frango, sobrecoxa, sem pele, crua",
+    "baseQty": 100,
+    "proteins": 17.6,
+    "carbs": 0,
+    "fats": 9.6,
+    "kcals": 161.8
+  },
+  {
+    "description": "Hambúrguer, bovino, cru",
+    "baseQty": 100,
+    "proteins": 13.2,
+    "carbs": 4.2,
+    "fats": 16.2,
+    "kcals": 214.8
+  },
+  {
+    "description": "Hambúrguer, bovino, frito",
+    "baseQty": 100,
+    "proteins": 20,
+    "carbs": 6.3,
+    "fats": 17,
+    "kcals": 258.3
+  },
+  {
+    "description": "Hambúrguer, bovino, grelhado",
+    "baseQty": 100,
+    "proteins": 13.2,
+    "carbs": 11.3,
+    "fats": 12.4,
+    "kcals": 209.8
+  },
+  {
+    "description": "Lingüiça, frango, crua",
+    "baseQty": 100,
+    "proteins": 14.2,
+    "carbs": 0,
+    "fats": 17.4,
+    "kcals": 218.1
+  },
+  {
+    "description": "Lingüiça, frango, frita",
+    "baseQty": 100,
+    "proteins": 18.3,
+    "carbs": 0,
+    "fats": 18.5,
+    "kcals": 245.5
+  },
+  {
+    "description": "Lingüiça, frango, grelhada",
+    "baseQty": 100,
+    "proteins": 18.2,
+    "carbs": 0,
+    "fats": 18.4,
+    "kcals": 243.7
+  },
+  {
+    "description": "Lingüiça, porco, crua",
+    "baseQty": 100,
+    "proteins": 16.1,
+    "carbs": 0,
+    "fats": 17.6,
+    "kcals": 227.2
+  },
+  {
+    "description": "Lingüiça, porco, frita",
+    "baseQty": 100,
+    "proteins": 20.5,
+    "carbs": 0,
+    "fats": 21.3,
+    "kcals": 279.5
+  },
+  {
+    "description": "Lingüiça, porco, grelhada",
+    "baseQty": 100,
+    "proteins": 23.2,
+    "carbs": 0,
+    "fats": 21.9,
+    "kcals": 296.5
+  },
+  {
+    "description": "Mortadela",
+    "baseQty": 100,
+    "proteins": 12,
+    "carbs": 5.8,
+    "fats": 21.6,
+    "kcals": 268.8
+  },
+  {
+    "description": "Peru, congelado, assado",
+    "baseQty": 100,
+    "proteins": 26.2,
+    "carbs": 0,
+    "fats": 5.7,
+    "kcals": 163.1
+  },
+  {
+    "description": "Peru, congelado, cru",
+    "baseQty": 100,
+    "proteins": 18.1,
+    "carbs": 0,
+    "fats": 1.8,
+    "kcals": 93.7
+  },
+  {
+    "description": "Porco, bisteca, crua",
+    "baseQty": 100,
+    "proteins": 21.5,
+    "carbs": 0,
+    "fats": 8,
+    "kcals": 164.1
+  },
+  {
+    "description": "Porco, bisteca, frita",
+    "baseQty": 100,
+    "proteins": 33.7,
+    "carbs": 0,
+    "fats": 18.5,
+    "kcals": 311.2
+  },
+  {
+    "description": "Porco, bisteca, grelhada",
+    "baseQty": 100,
+    "proteins": 28.9,
+    "carbs": 0,
+    "fats": 17.4,
+    "kcals": 280.1
+  },
+  {
+    "description": "Porco, costela, assada",
+    "baseQty": 100,
+    "proteins": 30.2,
+    "carbs": 0,
+    "fats": 30.3,
+    "kcals": 402.2
+  },
+  {
+    "description": "Porco, costela, crua",
+    "baseQty": 100,
+    "proteins": 18,
+    "carbs": 0,
+    "fats": 19.8,
+    "kcals": 255.6
+  },
+  {
+    "description": "Porco, lombo, assado",
+    "baseQty": 100,
+    "proteins": 35.7,
+    "carbs": 0,
+    "fats": 6.4,
+    "kcals": 210.2
+  },
+  {
+    "description": "Porco, lombo, cru",
+    "baseQty": 100,
+    "proteins": 22.6,
+    "carbs": 0,
+    "fats": 8.8,
+    "kcals": 175.6
+  },
+  {
+    "description": "Porco, orelha, salgada, crua",
+    "baseQty": 100,
+    "proteins": 18.5,
+    "carbs": 0,
+    "fats": 19.9,
+    "kcals": 258.5
+  },
+  {
+    "description": "Porco, pernil, assado",
+    "baseQty": 100,
+    "proteins": 32.1,
+    "carbs": 0,
+    "fats": 13.9,
+    "kcals": 262.3
+  },
+  {
+    "description": "Porco, pernil, cru",
+    "baseQty": 100,
+    "proteins": 20.1,
+    "carbs": 0,
+    "fats": 11.1,
+    "kcals": 186.1
+  },
+  {
+    "description": "Porco, rabo, salgado, cru",
+    "baseQty": 100,
+    "proteins": 15.6,
+    "carbs": 0,
+    "fats": 34.5,
+    "kcals": 377.4
+  },
+  {
+    "description": "Presunto, com capa de gordura",
+    "baseQty": 100,
+    "proteins": 14.4,
+    "carbs": 1.4,
+    "fats": 6.8,
+    "kcals": 127.8
+  },
+  {
+    "description": "Presunto, sem capa de gordura",
+    "baseQty": 100,
+    "proteins": 14.3,
+    "carbs": 2.1,
+    "fats": 2.7,
+    "kcals": 93.7
+  },
+  {
+    "description": "Quibe, assado",
+    "baseQty": 100,
+    "proteins": 14.6,
+    "carbs": 12.9,
+    "fats": 2.7,
+    "kcals": 136.2
+  },
+  {
+    "description": "Quibe, cru",
+    "baseQty": 100,
+    "proteins": 12.4,
+    "carbs": 10.8,
+    "fats": 1.7,
+    "kcals": 109.5
+  },
+  {
+    "description": "Quibe, frito",
+    "baseQty": 100,
+    "proteins": 14.9,
+    "carbs": 12.3,
+    "fats": 15.8,
+    "kcals": 253.8
+  },
+  {
+    "description": "Salame",
+    "baseQty": 100,
+    "proteins": 25.8,
+    "carbs": 2.9,
+    "fats": 30.6,
+    "kcals": 397.8
+  },
+  {
+    "description": "Toucinho, cru",
+    "baseQty": 100,
+    "proteins": 11.5,
+    "carbs": 0,
+    "fats": 60.3,
+    "kcals": 592.5
+  },
+  {
+    "description": "Toucinho, frito",
+    "baseQty": 100,
+    "proteins": 27.3,
+    "carbs": 0,
+    "fats": 64.3,
+    "kcals": 696.6
+  },
+  {
+    "description": "Bebida láctea, pêssego",
+    "baseQty": 100,
+    "proteins": 2.1,
+    "carbs": 7.6,
+    "fats": 1.9,
+    "kcals": 55.2
+  },
+  {
+    "description": "Creme de Leite",
+    "baseQty": 100,
+    "proteins": 1.5,
+    "carbs": 4.5,
+    "fats": 22.5,
+    "kcals": 221.5
+  },
+  {
+    "description": "Iogurte, natural",
+    "baseQty": 100,
+    "proteins": 4.1,
+    "carbs": 1.9,
+    "fats": 3,
+    "kcals": 51.5
+  },
+  {
+    "description": "Iogurte, natural, desnatado",
+    "baseQty": 100,
+    "proteins": 3.8,
+    "carbs": 5.8,
+    "fats": 0.3,
+    "kcals": 41.5
+  },
+  {
+    "description": "Iogurte, sabor abacaxi",
+    "baseQty": 100,
+    "proteins": 2.9,
+    "carbs": 15,
+    "fats": 3.1,
+    "kcals": 100
+  },
+  {
+    "description": "Iogurte, sabor morango",
+    "baseQty": 100,
+    "proteins": 2.7,
+    "carbs": 9.7,
+    "fats": 2.3,
+    "kcals": 69.6
+  },
+  {
+    "description": "Iogurte, sabor pêssego",
+    "baseQty": 100,
+    "proteins": 2.5,
+    "carbs": 9.4,
+    "fats": 2.3,
+    "kcals": 67.8
+  },
+  {
+    "description": "Leite, condensado",
+    "baseQty": 100,
+    "proteins": 7.7,
+    "carbs": 57,
+    "fats": 6.7,
+    "kcals": 312.6
+  },
+  {
+    "description": "Leite, de cabra",
+    "baseQty": 100,
+    "proteins": 3.1,
+    "carbs": 5.2,
+    "fats": 3.8,
+    "kcals": 66.4
+  },
+  {
+    "description": "Leite, de vaca, achocolatado",
+    "baseQty": 100,
+    "proteins": 2.1,
+    "carbs": 14.2,
+    "fats": 2.2,
+    "kcals": 82.8
+  },
+  {
+    "description": "Leite, de vaca, desnatado, pó",
+    "baseQty": 100,
+    "proteins": 34.7,
+    "carbs": 53,
+    "fats": 0.9,
+    "kcals": 361.6
+  },
+  {
+    "description": "Leite, de vaca, desnatado, UHT",
+    "baseQty": 100,
+    "proteins": 2.9,
+    "carbs": 5,
+    "fats": 0.5,
+    "kcals": 36
+  },
+  {
+    "description": "Leite, de vaca, integral",
+    "baseQty": 100,
+    "proteins": 2.9,
+    "carbs": 5,
+    "fats": 3,
+    "kcals": 58
+  },
+  {
+    "description": "Leite, de vaca, integral, pó",
+    "baseQty": 100,
+    "proteins": 25.4,
+    "carbs": 39.2,
+    "fats": 26.9,
+    "kcals": 496.7
+  },
+  {
+    "description": "Leite, fermentado",
+    "baseQty": 100,
+    "proteins": 1.9,
+    "carbs": 15.7,
+    "fats": 0.1,
+    "kcals": 69.6
+  },
+  {
+    "description": "Queijo, minas, frescal",
+    "baseQty": 100,
+    "proteins": 17.4,
+    "carbs": 3.2,
+    "fats": 20.2,
+    "kcals": 264.3
+  },
+  {
+    "description": "Queijo, minas, meia cura",
+    "baseQty": 100,
+    "proteins": 21.2,
+    "carbs": 3.6,
+    "fats": 24.6,
+    "kcals": 320.7
+  },
+  {
+    "description": "Queijo, mozarela",
+    "baseQty": 100,
+    "proteins": 22.6,
+    "carbs": 3,
+    "fats": 25.2,
+    "kcals": 329.9
+  },
+  {
+    "description": "Queijo, parmesão",
+    "baseQty": 100,
+    "proteins": 35.6,
+    "carbs": 1.7,
+    "fats": 33.5,
+    "kcals": 453
+  },
+  {
+    "description": "Queijo, pasteurizado",
+    "baseQty": 100,
+    "proteins": 9.4,
+    "carbs": 5.7,
+    "fats": 27.4,
+    "kcals": 303.1
+  },
+  {
+    "description": "Queijo, petit suisse, morango",
+    "baseQty": 100,
+    "proteins": 5.8,
+    "carbs": 18.5,
+    "fats": 2.8,
+    "kcals": 121.1
+  },
+  {
+    "description": "Queijo, prato",
+    "baseQty": 100,
+    "proteins": 22.7,
+    "carbs": 1.9,
+    "fats": 29.1,
+    "kcals": 359.9
+  },
+  {
+    "description": "Maria mole",
+    "baseQty": 100,
+    "proteins": 9.6,
+    "carbs": 2.4,
+    "fats": 23.4,
+    "kcals": 256.6
+  },
+  {
+    "description": "Queijo, ricota",
+    "baseQty": 100,
+    "proteins": 12.6,
+    "carbs": 3.8,
+    "fats": 8.1,
+    "kcals": 139.7
+  },
+  {
+    "description": "Bebida isotônica, sabores variados",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 6.4,
+    "fats": 0,
+    "kcals": 25.6
+  },
+  {
+    "description": "Café, infusão 10%",
+    "baseQty": 100,
+    "proteins": 0.7,
+    "carbs": 1.5,
+    "fats": 0.1,
+    "kcals": 9.1
+  },
+  {
+    "description": "Cana, aguardente 1",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 0,
+    "fats": 0,
+    "kcals": 215.7
+  },
+  {
+    "description": "Cana, caldo de",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 18.2,
+    "fats": 0,
+    "kcals": 65.3
+  },
+  {
+    "description": "Cerveja, pilsen 2",
+    "baseQty": 100,
+    "proteins": 0.6,
+    "carbs": 3.3,
+    "fats": 0,
+    "kcals": 40.7
+  },
+  {
+    "description": "Chá, erva-doce, infusão 5%",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 0.4,
+    "fats": 0,
+    "kcals": 1.4
+  },
+  {
+    "description": "Chá, mate, infusão 5%",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 0.6,
+    "fats": 0.1,
+    "kcals": 2.7
+  },
+  {
+    "description": "Chá, preto, infusão 5%",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 0.6,
+    "fats": 0,
+    "kcals": 2.2
+  },
+  {
+    "description": "Coco, água de",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 5.3,
+    "fats": 0,
+    "kcals": 21.5
+  },
+  {
+    "description": "Refrigerante, tipo água tônica",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 8,
+    "fats": 0,
+    "kcals": 30.8
+  },
+  {
+    "description": "Refrigerante, tipo cola",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 8.7,
+    "fats": 0,
+    "kcals": 33.5
+  },
+  {
+    "description": "Refrigerante, tipo guaraná",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 10,
+    "fats": 0,
+    "kcals": 38.7
+  },
+  {
+    "description": "Refrigerante, tipo laranja",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 11.8,
+    "fats": 0,
+    "kcals": 45.6
+  },
+  {
+    "description": "Refrigerante, tipo limão",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 10.3,
+    "fats": 0,
+    "kcals": 39.7
+  },
+  {
+    "description": "Omelete, de queijo",
+    "baseQty": 100,
+    "proteins": 15.6,
+    "carbs": 0.4,
+    "fats": 22,
+    "kcals": 268
+  },
+  {
+    "description": "Ovo, de codorna, inteiro, cru",
+    "baseQty": 100,
+    "proteins": 13.7,
+    "carbs": 0.8,
+    "fats": 12.7,
+    "kcals": 176.9
+  },
+  {
+    "description": "Ovo, de galinha, clara, cozida/10minutos",
+    "baseQty": 100,
+    "proteins": 13.4,
+    "carbs": 0,
+    "fats": 0.1,
+    "kcals": 59.4
+  },
+  {
+    "description": "Ovo, de galinha, gema, cozida/10minutos",
+    "baseQty": 100,
+    "proteins": 15.9,
+    "carbs": 1.6,
+    "fats": 30.8,
+    "kcals": 352.7
+  },
+  {
+    "description": "Ovo, de galinha, inteiro, cozido/10minutos",
+    "baseQty": 100,
+    "proteins": 13.3,
+    "carbs": 0.6,
+    "fats": 9.5,
+    "kcals": 145.7
+  },
+  {
+    "description": "Ovo, de galinha, inteiro, cru",
+    "baseQty": 100,
+    "proteins": 13,
+    "carbs": 1.6,
+    "fats": 8.9,
+    "kcals": 143.1
+  },
+  {
+    "description": "Ovo, de galinha, inteiro, frito",
+    "baseQty": 100,
+    "proteins": 15.6,
+    "carbs": 1.2,
+    "fats": 18.6,
+    "kcals": 240.2
+  },
+  {
+    "description": "Achocolatado, pó",
+    "baseQty": 100,
+    "proteins": 4.2,
+    "carbs": 91.2,
+    "fats": 2.2,
+    "kcals": 401
+  },
+  {
+    "description": "Açúcar, cristal",
+    "baseQty": 100,
+    "proteins": 0.3,
+    "carbs": 99.6,
+    "fats": 0,
+    "kcals": 386.8
+  },
+  {
+    "description": "Açúcar, mascavo",
+    "baseQty": 100,
+    "proteins": 0.8,
+    "carbs": 94.5,
+    "fats": 0.1,
+    "kcals": 368.6
+  },
+  {
+    "description": "Açúcar, refinado",
+    "baseQty": 100,
+    "proteins": 0.3,
+    "carbs": 99.5,
+    "fats": 0,
+    "kcals": 386.6
+  },
+  {
+    "description": "Chocolate, ao leite",
+    "baseQty": 100,
+    "proteins": 7.2,
+    "carbs": 59.6,
+    "fats": 30.3,
+    "kcals": 539.6
+  },
+  {
+    "description": "Chocolate, ao leite, com castanha do Pará",
+    "baseQty": 100,
+    "proteins": 7.4,
+    "carbs": 55.4,
+    "fats": 34.2,
+    "kcals": 558.9
+  },
+  {
+    "description": "Chocolate, ao leite, dietético",
+    "baseQty": 100,
+    "proteins": 6.9,
+    "carbs": 56.3,
+    "fats": 33.8,
+    "kcals": 556.8
+  },
+  {
+    "description": "Chocolate, meio amargo",
+    "baseQty": 100,
+    "proteins": 4.9,
+    "carbs": 62.4,
+    "fats": 29.9,
+    "kcals": 474.9
+  },
+  {
+    "description": "Cocada branca",
+    "baseQty": 100,
+    "proteins": 1.1,
+    "carbs": 81.4,
+    "fats": 13.6,
+    "kcals": 448.8
+  },
+  {
+    "description": "Doce, de abóbora, cremoso",
+    "baseQty": 100,
+    "proteins": 0.9,
+    "carbs": 54.6,
+    "fats": 0.2,
+    "kcals": 198.9
+  },
+  {
+    "description": "Doce, de leite, cremoso",
+    "baseQty": 100,
+    "proteins": 5.5,
+    "carbs": 59.5,
+    "fats": 6,
+    "kcals": 306.3
+  },
+  {
+    "description": "Geléia, mocotó, natural",
+    "baseQty": 100,
+    "proteins": 2.1,
+    "carbs": 24.2,
+    "fats": 0.1,
+    "kcals": 106.1
+  },
+  {
+    "description": "Glicose de milho",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 79.4,
+    "fats": 0,
+    "kcals": 292.1
+  },
+  {
+    "description": "Maria mole",
+    "baseQty": 100,
+    "proteins": 3.8,
+    "carbs": 73.6,
+    "fats": 0.2,
+    "kcals": 301.2
+  },
+  {
+    "description": "Maria mole, coco queimado",
+    "baseQty": 100,
+    "proteins": 3.9,
+    "carbs": 75.1,
+    "fats": 0.1,
+    "kcals": 306.6
+  },
+  {
+    "description": "Marmelada",
+    "baseQty": 100,
+    "proteins": 0.4,
+    "carbs": 70.8,
+    "fats": 0.1,
+    "kcals": 257.2
+  },
+  {
+    "description": "Mel, de abelha",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 84,
+    "fats": 0,
+    "kcals": 309.2
+  },
+  {
+    "description": "Melado",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 76.6,
+    "fats": 0,
+    "kcals": 296.5
+  },
+  {
+    "description": "Quindim",
+    "baseQty": 100,
+    "proteins": 4.7,
+    "carbs": 46.3,
+    "fats": 24.4,
+    "kcals": 411.3
+  },
+  {
+    "description": "Rapadura",
+    "baseQty": 100,
+    "proteins": 1,
+    "carbs": 90.8,
+    "fats": 0.1,
+    "kcals": 352
+  },
+  {
+    "description": "Café, pó, torrado",
+    "baseQty": 100,
+    "proteins": 14.7,
+    "carbs": 65.8,
+    "fats": 11.9,
+    "kcals": 418.6
+  },
+  {
+    "description": "Capuccino, pó",
+    "baseQty": 100,
+    "proteins": 11.3,
+    "carbs": 73.6,
+    "fats": 8.6,
+    "kcals": 417.4
+  },
+  {
+    "description": "Fermento em pó, químico",
+    "baseQty": 100,
+    "proteins": 0.5,
+    "carbs": 43.9,
+    "fats": 0.1,
+    "kcals": 89.7
+  },
+  {
+    "description": "Fermento, biológico, levedura, tablete",
+    "baseQty": 100,
+    "proteins": 17,
+    "carbs": 7.7,
+    "fats": 1.5,
+    "kcals": 89.8
+  },
+  {
+    "description": "Gelatina, sabores variados, pó",
+    "baseQty": 100,
+    "proteins": 8.9,
+    "carbs": 89.2,
+    "fats": 0,
+    "kcals": 380.2
+  },
+  {
+    "description": "Sal, dietético",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 0,
+    "fats": 0,
+    "kcals": 0
+  },
+  {
+    "description": "Sal, grosso",
+    "baseQty": 100,
+    "proteins": 0,
+    "carbs": 0,
+    "fats": 0,
+    "kcals": 0
+  },
+  {
+    "description": "Shoyu",
+    "baseQty": 100,
+    "proteins": 3.3,
+    "carbs": 11.6,
+    "fats": 0.3,
+    "kcals": 60.9
+  },
+  {
+    "description": "Tempero a base de sal",
+    "baseQty": 100,
+    "proteins": 2.7,
+    "carbs": 2.1,
+    "fats": 0.3,
+    "kcals": 21.3
+  },
+  {
+    "description": "Azeitona, preta, conserva",
+    "baseQty": 100,
+    "proteins": 1.2,
+    "carbs": 5.5,
+    "fats": 20.3,
+    "kcals": 194.2
+  },
+  {
+    "description": "Azeitona, verde, conserva",
+    "baseQty": 100,
+    "proteins": 0.9,
+    "carbs": 4.1,
+    "fats": 14.2,
+    "kcals": 136.9
+  },
+  {
+    "description": "Chantilly, spray, com gordura vegetal",
+    "baseQty": 100,
+    "proteins": 0.5,
+    "carbs": 16.9,
+    "fats": 27.3,
+    "kcals": 315
+  },
+  {
+    "description": "Leite, de coco",
+    "baseQty": 100,
+    "proteins": 1,
+    "carbs": 2.2,
+    "fats": 18.4,
+    "kcals": 166.2
+  },
+  {
+    "description": "Maionese, tradicional com ovos",
+    "baseQty": 100,
+    "proteins": 0.6,
+    "carbs": 7.9,
+    "fats": 30.5,
+    "kcals": 302.2
+  },
+  {
+    "description": "Acarajé",
+    "baseQty": 100,
+    "proteins": 8.3,
+    "carbs": 19.1,
+    "fats": 19.9,
+    "kcals": 289.2
+  },
+  {
+    "description": "Arroz carreteiro",
+    "baseQty": 100,
+    "proteins": 10.8,
+    "carbs": 11.6,
+    "fats": 7.1,
+    "kcals": 153.8
+  },
+  {
+    "description": "Baião de dois, arroz e feijão-de-corda",
+    "baseQty": 100,
+    "proteins": 6.2,
+    "carbs": 20.4,
+    "fats": 3.2,
+    "kcals": 135.7
+  },
+  {
+    "description": "Barreado",
+    "baseQty": 100,
+    "proteins": 18.3,
+    "carbs": 0.2,
+    "fats": 9.5,
+    "kcals": 165
+  },
+  {
+    "description": "Bife à cavalo, com contra filé",
+    "baseQty": 100,
+    "proteins": 23.7,
+    "carbs": 0,
+    "fats": 21.1,
+    "kcals": 291.2
+  },
+  {
+    "description": "Bolinho de arroz",
+    "baseQty": 100,
+    "proteins": 8,
+    "carbs": 41.7,
+    "fats": 8.3,
+    "kcals": 273.5
+  },
+  {
+    "description": "Camarão à baiana",
+    "baseQty": 100,
+    "proteins": 7.9,
+    "carbs": 3.2,
+    "fats": 6,
+    "kcals": 100.8
+  },
+  {
+    "description": "Charuto, de repolho",
+    "baseQty": 100,
+    "proteins": 6.8,
+    "carbs": 10.1,
+    "fats": 1.1,
+    "kcals": 78.2
+  },
+  {
+    "description": "Cuscuz, de milho, cozido com sal",
+    "baseQty": 100,
+    "proteins": 2.2,
+    "carbs": 25.3,
+    "fats": 0.7,
+    "kcals": 113.5
+  },
+  {
+    "description": "Cuscuz, paulista",
+    "baseQty": 100,
+    "proteins": 2.6,
+    "carbs": 22.5,
+    "fats": 4.6,
+    "kcals": 142.1
+  },
+  {
+    "description": "Cuxá, molho",
+    "baseQty": 100,
+    "proteins": 5.6,
+    "carbs": 5.7,
+    "fats": 3.6,
+    "kcals": 80.1
+  },
+  {
+    "description": "Dobradinha",
+    "baseQty": 100,
+    "proteins": 19.8,
+    "carbs": 0,
+    "fats": 4.4,
+    "kcals": 124.5
+  },
+  {
+    "description": "Estrogonofe de carne",
+    "baseQty": 100,
+    "proteins": 15,
+    "carbs": 3,
+    "fats": 10.8,
+    "kcals": 173.1
+  },
+  {
+    "description": "Estrogonofe de frango",
+    "baseQty": 100,
+    "proteins": 17.6,
+    "carbs": 2.6,
+    "fats": 8,
+    "kcals": 156.8
+  },
+  {
+    "description": "Feijão tropeiro mineiro",
+    "baseQty": 100,
+    "proteins": 10.2,
+    "carbs": 19.6,
+    "fats": 6.8,
+    "kcals": 151.6
+  },
+  {
+    "description": "Feijoada",
+    "baseQty": 100,
+    "proteins": 8.7,
+    "carbs": 11.6,
+    "fats": 6.5,
+    "kcals": 116.9
+  },
+  {
+    "description": "Frango, com açafrão",
+    "baseQty": 100,
+    "proteins": 9.7,
+    "carbs": 4.1,
+    "fats": 6.2,
+    "kcals": 112.8
+  },
+  {
+    "description": "Macarrão, molho bolognesa",
+    "baseQty": 100,
+    "proteins": 4.9,
+    "carbs": 22.5,
+    "fats": 0.9,
+    "kcals": 119.5
+  },
+  {
+    "description": "Maniçoba",
+    "baseQty": 100,
+    "proteins": 10,
+    "carbs": 3.4,
+    "fats": 8.7,
+    "kcals": 134.2
+  },
+  {
+    "description": "Quibebe",
+    "baseQty": 100,
+    "proteins": 8.6,
+    "carbs": 6.6,
+    "fats": 2.7,
+    "kcals": 86.3
+  },
+  {
+    "description": "Salada, de legumes, com maionese",
+    "baseQty": 100,
+    "proteins": 1.1,
+    "carbs": 8.9,
+    "fats": 7,
+    "kcals": 96.1
+  },
+  {
+    "description": "Salada, de legumes, cozida no vapor",
+    "baseQty": 100,
+    "proteins": 2,
+    "carbs": 7.1,
+    "fats": 0.3,
+    "kcals": 35.4
+  },
+  {
+    "description": "Salpicão, de frango",
+    "baseQty": 100,
+    "proteins": 13.9,
+    "carbs": 4.6,
+    "fats": 7.8,
+    "kcals": 147.9
+  },
+  {
+    "description": "Sarapatel",
+    "baseQty": 100,
+    "proteins": 18.5,
+    "carbs": 1.1,
+    "fats": 4.4,
+    "kcals": 123
+  },
+  {
+    "description": "Tabule",
+    "baseQty": 100,
+    "proteins": 2,
+    "carbs": 10.6,
+    "fats": 1.2,
+    "kcals": 57.5
+  },
+  {
+    "description": "Tacacá",
+    "baseQty": 100,
+    "proteins": 7,
+    "carbs": 3.4,
+    "fats": 0.4,
+    "kcals": 46.9
+  },
+  {
+    "description": "Tapioca, com manteiga",
+    "baseQty": 100,
+    "proteins": 0.1,
+    "carbs": 63.6,
+    "fats": 10.9,
+    "kcals": 347.8
+  },
+  {
+    "description": "Tucupi, com pimenta-de-cheiro",
+    "baseQty": 100,
+    "proteins": 2.1,
+    "carbs": 4.7,
+    "fats": 0.3,
+    "kcals": 27.2
+  },
+  {
+    "description": "Vaca atolada",
+    "baseQty": 100,
+    "proteins": 5.1,
+    "carbs": 10.1,
+    "fats": 9.3,
+    "kcals": 144.9
+  },
+  {
+    "description": "Vatapá",
+    "baseQty": 100,
+    "proteins": 6,
+    "carbs": 9.7,
+    "fats": 23.2,
+    "kcals": 254.9
+  },
+  {
+    "description": "Virado à paulista",
+    "baseQty": 100,
+    "proteins": 10.2,
+    "carbs": 14.1,
+    "fats": 25.6,
+    "kcals": 306.9
+  },
+  {
+    "description": "Yakisoba",
+    "baseQty": 100,
+    "proteins": 7.5,
+    "carbs": 18.3,
+    "fats": 2.6,
+    "kcals": 112.8
+  },
+  {
+    "description": "Amendoim, grão, cru",
+    "baseQty": 100,
+    "proteins": 27.2,
+    "carbs": 20.3,
+    "fats": 43.9,
+    "kcals": 544.1
+  },
+  {
+    "description": "Amendoim, torrado, salgado",
+    "baseQty": 100,
+    "proteins": 22.5,
+    "carbs": 18.7,
+    "fats": 54,
+    "kcals": 605.8
+  },
+  {
+    "description": "Ervilha, em vagem",
+    "baseQty": 100,
+    "proteins": 7.5,
+    "carbs": 14.2,
+    "fats": 0.5,
+    "kcals": 88.1
+  },
+  {
+    "description": "Ervilha, enlatada, drenada",
+    "baseQty": 100,
+    "proteins": 4.6,
+    "carbs": 13.4,
+    "fats": 0.4,
+    "kcals": 73.8
+  },
+  {
+    "description": "Feijão, carioca, cozido",
+    "baseQty": 100,
+    "proteins": 4.8,
+    "carbs": 13.6,
+    "fats": 0.5,
+    "kcals": 76.4
+  },
+  {
+    "description": "Feijão, carioca, cru",
+    "baseQty": 100,
+    "proteins": 20,
+    "carbs": 61.2,
+    "fats": 1.3,
+    "kcals": 329
+  },
+  {
+    "description": "Feijão, fradinho, cozido",
+    "baseQty": 100,
+    "proteins": 5.1,
+    "carbs": 13.5,
+    "fats": 0.6,
+    "kcals": 78
+  },
+  {
+    "description": "Feijão, fradinho, cru",
+    "baseQty": 100,
+    "proteins": 20.2,
+    "carbs": 61.2,
+    "fats": 2.4,
+    "kcals": 339.2
+  },
+  {
+    "description": "Feijão, jalo, cozido",
+    "baseQty": 100,
+    "proteins": 6.1,
+    "carbs": 16.5,
+    "fats": 0.5,
+    "kcals": 92.7
+  },
+  {
+    "description": "Feijão, jalo, cru",
+    "baseQty": 100,
+    "proteins": 20.1,
+    "carbs": 61.5,
+    "fats": 0.9,
+    "kcals": 327.9
+  },
+  {
+    "description": "Feijão, preto, cozido",
+    "baseQty": 100,
+    "proteins": 4.5,
+    "carbs": 14,
+    "fats": 0.5,
+    "kcals": 77
+  },
+  {
+    "description": "Feijão, preto, cru",
+    "baseQty": 100,
+    "proteins": 21.3,
+    "carbs": 58.8,
+    "fats": 1.2,
+    "kcals": 323.6
+  },
+  {
+    "description": "Feijão, rajado, cozido",
+    "baseQty": 100,
+    "proteins": 5.5,
+    "carbs": 15.3,
+    "fats": 0.4,
+    "kcals": 84.7
+  },
+  {
+    "description": "Feijão, rajado, cru",
+    "baseQty": 100,
+    "proteins": 17.3,
+    "carbs": 62.9,
+    "fats": 1.2,
+    "kcals": 325.8
+  },
+  {
+    "description": "Feijão, rosinha, cozido",
+    "baseQty": 100,
+    "proteins": 4.5,
+    "carbs": 11.8,
+    "fats": 0.5,
+    "kcals": 67.9
+  },
+  {
+    "description": "Feijão, rosinha, cru",
+    "baseQty": 100,
+    "proteins": 20.9,
+    "carbs": 62.2,
+    "fats": 1.3,
+    "kcals": 337
+  },
+  {
+    "description": "Feijão, roxo, cozido",
+    "baseQty": 100,
+    "proteins": 5.7,
+    "carbs": 12.9,
+    "fats": 0.5,
+    "kcals": 76.9
+  },
+  {
+    "description": "Feijão, roxo, cru",
+    "baseQty": 100,
+    "proteins": 22.2,
+    "carbs": 60,
+    "fats": 1.2,
+    "kcals": 331.4
+  },
+  {
+    "description": "Grão-de-bico, cru",
+    "baseQty": 100,
+    "proteins": 21.2,
+    "carbs": 57.9,
+    "fats": 5.4,
+    "kcals": 354.7
+  },
+  {
+    "description": "Guandu, cru",
+    "baseQty": 100,
+    "proteins": 19,
+    "carbs": 64,
+    "fats": 2.1,
+    "kcals": 344.1
+  },
+  {
+    "description": "Lentilha, cozida",
+    "baseQty": 100,
+    "proteins": 6.3,
+    "carbs": 16.3,
+    "fats": 0.5,
+    "kcals": 92.6
+  },
+  {
+    "description": "Lentilha, crua",
+    "baseQty": 100,
+    "proteins": 23.2,
+    "carbs": 62,
+    "fats": 0.8,
+    "kcals": 339.1
+  },
+  {
+    "description": "Paçoca, amendoim",
+    "baseQty": 100,
+    "proteins": 16,
+    "carbs": 52.4,
+    "fats": 26.1,
+    "kcals": 486.9
+  },
+  {
+    "description": "Pé-de-moleque, amendoim",
+    "baseQty": 100,
+    "proteins": 13.2,
+    "carbs": 54.7,
+    "fats": 28,
+    "kcals": 503.2
+  },
+  {
+    "description": "Soja, farinha",
+    "baseQty": 100,
+    "proteins": 36,
+    "carbs": 38.4,
+    "fats": 14.6,
+    "kcals": 404
+  },
+  {
+    "description": "Soja, extrato solúvel, natural, fluido",
+    "baseQty": 100,
+    "proteins": 2.4,
+    "carbs": 4.3,
+    "fats": 1.6,
+    "kcals": 39.1
+  },
+  {
+    "description": "Soja, extrato solúvel, pó",
+    "baseQty": 100,
+    "proteins": 35.7,
+    "carbs": 28.5,
+    "fats": 26.2,
+    "kcals": 458.9
+  },
+  {
+    "description": "Soja, queijo (tofu)",
+    "baseQty": 100,
+    "proteins": 6.6,
+    "carbs": 2.1,
+    "fats": 4,
+    "kcals": 64.5
+  },
+  {
+    "description": "Tremoço, cru",
+    "baseQty": 100,
+    "proteins": 33.6,
+    "carbs": 43.8,
+    "fats": 10.3,
+    "kcals": 381.3
+  },
+  {
+    "description": "Tremoço, em conserva",
+    "baseQty": 100,
+    "proteins": 11.1,
+    "carbs": 12.4,
+    "fats": 3.8,
+    "kcals": 120.6
+  },
+  {
+    "description": "Amêndoa, torrada, salgada",
+    "baseQty": 100,
+    "proteins": 18.6,
+    "carbs": 29.5,
+    "fats": 47.3,
+    "kcals": 580.7
+  },
+  {
+    "description": "Castanha-de-caju, torrada, salgada",
+    "baseQty": 100,
+    "proteins": 18.5,
+    "carbs": 29.1,
+    "fats": 46.3,
+    "kcals": 570.2
+  },
+  {
+    "description": "Castanha-do-Brasil, crua",
+    "baseQty": 100,
+    "proteins": 14.5,
+    "carbs": 15.1,
+    "fats": 63.5,
+    "kcals": 643
+  },
+  {
+    "description": "Coco, cru",
+    "baseQty": 100,
+    "proteins": 3.7,
+    "carbs": 10.4,
+    "fats": 42,
+    "kcals": 406.5
+  },
+  {
+    "description": "Coco, verde, cru",
+    "baseQty": 100,
+    "proteins": 4,
+    "carbs": 10,
+    "fats": 42,
+    "kcals": 430
+  },
+  {
+    "description": "Farinha, de mesocarpo de babaçu, crua",
+    "baseQty": 100,
+    "proteins": 1.4,
+    "carbs": 79.2,
+    "fats": 0.2,
+    "kcals": 328.8
+  },
+  {
+    "description": "Gergelim, semente",
+    "baseQty": 100,
+    "proteins": 21.2,
+    "carbs": 21.6,
+    "fats": 50.4,
+    "kcals": 583.5
+  },
+  {
+    "description": "Linhaça, semente",
+    "baseQty": 100,
+    "proteins": 14.1,
+    "carbs": 43.3,
+    "fats": 32.3,
+    "kcals": 495.1
+  },
+  {
+    "description": "Pinhão, cozido",
+    "baseQty": 100,
+    "proteins": 3,
+    "carbs": 43.9,
+    "fats": 0.7,
+    "kcals": 174.4
+  },
+  {
+    "description": "Pupunha, cozida",
+    "baseQty": 100,
+    "proteins": 2.5,
+    "carbs": 29.6,
+    "fats": 12.8,
+    "kcals": 218.5
+  },
+  {
+    "description": "Noz, crua",
+    "baseQty": 100,
+    "proteins": 14,
+    "carbs": 18.4,
+    "fats": 59.4,
+    "kcals": 620.1
+  }
+]
