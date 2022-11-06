@@ -37,10 +37,10 @@ model Ingredients {
   name String
   meal Meals @relation(fields: [mealId], references: [id])
   mealId Int
-  weightInGrams Float
-  carbsInGrams Float
-  fatsInGrams Float
-  proteinsInGrams Float
+  weight Float
+  carbs Float
+  fats Float
+  proteins Float
   kcals Float
   @@map("ingredients")
 }
