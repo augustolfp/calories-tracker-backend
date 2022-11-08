@@ -66,7 +66,7 @@ FROM
   LEFT JOIN meal_resume mr ON cdays.id = mr."countedDayId" 
 WHERE 
   cdays."userId" = ${userId}
-
+ORDER BY cdays.day DESC
   `;
 }
 
