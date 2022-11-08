@@ -12,7 +12,7 @@ export default function errorHandlerMW(
     if (message === 'Credenciais inválidas') return 401;
     if (message === 'Formato de token inválido') return 401;
     if (message === 'Token inválido') return 401;
-    if (message === 'Usuário já contém o dia registrado') return 401;
+    if (message === 'Usuário já contém o dia registrado') return 409;
     return 400;
   }
   return res.status(errorMessageToStatusCode(err.message)).send(err.message);
