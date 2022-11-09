@@ -19,4 +19,10 @@ countedDayRouter.get(
   countedDayController.getDaysFromUser
 );
 
+countedDayRouter.delete(
+  '/delete-counted-day/:id',
+  tokenValidationMW,
+  countedDayController.deleteDay
+);
+
 export default countedDayRouter;

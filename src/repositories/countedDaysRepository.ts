@@ -77,3 +77,19 @@ export async function getUserDay(userId: number, date: Date) {
     }
   });
 }
+
+export async function getDayById(dayId: number) {
+  return await prisma.countedDays.findUnique({
+    where: {
+      id: dayId
+    }
+  });
+}
+
+export async function deleteOne(dayId: number) {
+  return await prisma.countedDays.delete({
+    where: {
+      id: dayId
+    }
+  });
+}

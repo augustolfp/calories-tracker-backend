@@ -21,3 +21,13 @@ export async function addDay(countedDay: ICountedDayData) {
 export async function getDaysSummarizedData(userId: number) {
   return await countedDayRepo.getDaysSummarizedData(userId);
 }
+
+export async function deleteOne(dayId: number, userId: number) {
+  const userCheck = await countedDayRepo.getDayById(dayId);
+
+  if (userCheck?.userId !== userId) {
+    throw Error('Dia selecionado não pertence ao usuário');
+  }
+
+  return await countedDayRepo.deleteOne(dayId);
+}

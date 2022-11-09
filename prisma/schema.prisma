@@ -27,7 +27,7 @@ model Meals {
   description String?
   createdAt DateTime @default(now())
   ingredients Ingredients[]
-  countedDay CountedDays @relation(fields: [countedDayId], references: [id])
+  countedDay CountedDays @relation(fields: [countedDayId], references: [id], onDelete: Cascade)
   countedDayId Int
   @@map("meals")
 }
