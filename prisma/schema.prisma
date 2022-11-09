@@ -35,7 +35,7 @@ model Meals {
 model Ingredients {
   id Int @id @default(autoincrement())
   name String
-  meal Meals @relation(fields: [mealId], references: [id])
+  meal Meals @relation(fields: [mealId], references: [id], onDelete: Cascade)
   mealId Int
   weight Float
   carbs Float

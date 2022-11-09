@@ -15,4 +15,10 @@ mealRouter.post(
 
 mealRouter.get('/get-meal/:id', tokenValidationMW, mealController.getMealById);
 
+mealRouter.delete(
+  '/delete-meal/:id',
+  tokenValidationMW,
+  mealController.deleteMeal
+);
+
 export default mealRouter;

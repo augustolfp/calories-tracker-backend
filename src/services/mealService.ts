@@ -9,3 +9,13 @@ export async function create(meal: IMealData) {
 export async function getMealById(mealdId: number) {
   return await mealRepo.getMealStatsById(mealdId);
 }
+
+export async function deleteOne(mealId: number, userId: number) {
+  const userCheck = await mealRepo.getMealOwnerId(mealId);
+
+  if (userCheck[0].userId !== userId) {
+    throw Error('Refeição não pertence ao usuário');
+  }
+
+  return await mealRepo.deleteOne(mealId);
+}

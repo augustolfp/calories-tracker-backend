@@ -17,3 +17,12 @@ export async function getMealById(req: Request, res: Response) {
 
   return res.status(200).send(meal);
 }
+
+export async function deleteMeal(req: Request, res: Response) {
+  const mealId = Number(req.params.id);
+  const userId = res.locals.userData.userId;
+
+  await mealService.deleteOne(mealId, userId);
+
+  return res.status(200).send('Refeição apagada com sucesso!');
+}

@@ -26,3 +26,26 @@ export async function getMealStatsById(mealdId: number) {
 
   return query[0];
 }
+
+export async function getMealOwnerId(mealId: number) {
+  type Result = {
+    userId: number;
+  };
+
+  return await prisma.$queryRaw<Result[]>`
+    SELECT
+	    c."userId" AS "userId"
+    FROM
+	    meals m
+	    JOIN "countedDays" c ON m."countedDayId" = c.id
+    WHERE m.id = ${mealId}
+  `;
+}
+
+export async function deleteOne(mealId: number) {
+  return await prisma.meals.delete({
+    where: {
+      id: mealId
+    }
+  });
+}
