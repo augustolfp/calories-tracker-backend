@@ -9,3 +9,11 @@ export async function insertIngredient(req: Request, res: Response) {
 
   return res.status(201).send(result);
 }
+
+export async function deleteOneIngredient(req: Request, res: Response) {
+  const ingId = Number(req.params.id);
+  const userId = res.locals.userData.userId;
+
+  await ingredientService.deleteOne(ingId, userId);
+  return res.status(200).send('Ingrediente apagado com sucesso!');
+}

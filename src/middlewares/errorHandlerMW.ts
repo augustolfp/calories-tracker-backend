@@ -13,6 +13,7 @@ export default function errorHandlerMW(
     if (message === 'Formato de token inválido') return 401;
     if (message === 'Token inválido') return 401;
     if (message === 'Usuário já contém o dia registrado') return 409;
+    if (message === 'Ingrediente não pertence ao usuário') return 401;
     return 400;
   }
   return res.status(errorMessageToStatusCode(err.message)).send(err.message);

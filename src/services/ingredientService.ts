@@ -17,3 +17,13 @@ export async function create(ingredient: IIngredientData) {
 
   return await ingredientRepo.create(truncIng);
 }
+
+export async function deleteOne(ingId: number, userId: number) {
+  const userCheck = await ingredientRepo.getIngredientOwnerId(ingId);
+
+  if (userCheck[0].userId !== userId) {
+    throw Error('Ingrediente não pertence ao usuário');
+  }
+
+  return await ingredientRepo.deleteOne(ingId);
+}
