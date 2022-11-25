@@ -15,3 +15,7 @@ export async function signIn(req: Request, res: Response) {
   const loginData = await userService.login(user);
   return res.status(201).send(loginData);
 }
+
+export async function validateToken(req: Request, res: Response) {
+  return res.status(200).send('Token válido');
+}
