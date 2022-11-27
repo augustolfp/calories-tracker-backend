@@ -17,5 +17,7 @@ export async function signIn(req: Request, res: Response) {
 }
 
 export async function validateToken(req: Request, res: Response) {
-  return res.status(200).send('Token válido');
+  const id = res.locals.userData.userId;
+  const name = res.locals.userData.name;
+  return res.status(200).send({ id, name });
 }
