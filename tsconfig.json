@@ -1,10 +1,13 @@
 {
   "compilerOptions": {
     "sourceMap": true,
-    "outDir": "dist",
-    "strict": true,
-    "lib": ["esnext"],
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["es6"],
+    "allowJs": true,
+    "outDir": "build",
     "esModuleInterop": true,
     "resolveJsonModule": true
-  }
+  },
+  "include": ["tests", "src"]
 }

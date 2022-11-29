@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  mydatabase:
+    image: postgres:13
+    container_name: mydatabase
+    restart: always
+    ports:
+      - 4457:5432
+    env_file:
+      - .env
+    volumes:
+      - pg_calories-db:/var/lib/postgresql/data
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 5000:5000
+    env_file:
+      - .env
+    depends_on:
+      - mydatabase
+
+volumes:
+  pg_calories-db:
