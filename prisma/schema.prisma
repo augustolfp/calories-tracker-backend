@@ -17,6 +17,7 @@ model Users {
   password String
   createdAt DateTime @default(now())
   countedDays CountedDays[]
+  favoriteIngredients FavoriteIngredients[]
   @@map("users")
 }
 
@@ -65,4 +66,17 @@ model TacoTable {
   fats Float
   kcals Float
   @@map("tacoTable")
+}
+
+model FavoriteIngredients {
+  id Int @id @default(autoincrement())
+  user Users @relation(fields: [userId], references: [id])
+  userId Int
+  description String
+  baseQty Float
+  proteins Float
+  carbs Float
+  fats Float
+  kcals Float
+  @@map("favoriteIngredients")
 }
