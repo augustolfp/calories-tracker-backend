@@ -21,3 +21,7 @@ export async function create(
 
   return await favoriteIngRepo.create(truncIng);
 }
+
+export async function search(term: string, userId: number) {
+  return await favoriteIngRepo.search(term, userId);
+}

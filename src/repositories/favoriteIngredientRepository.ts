@@ -6,3 +6,19 @@ export async function create(favIng: IFavoriteIngredientData) {
     data: favIng
   });
 }
+
+export async function search(term: string, userId: number) {
+  return await prisma.$queryRaw`
+    SELECT
+      f.id,
+      f.description,
+      f."baseQty",
+      f.proteins,
+      f.carbs,
+      f.fats,
+      f.kcals
+    FROM "favoriteIngredients" f
+    WHERE
+      "userId" = ${userId}
+      AND description ILIKE ${'%' + term + '%'}`;
+}
