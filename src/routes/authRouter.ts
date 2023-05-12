@@ -20,4 +20,6 @@ authRouter.post(
 
 authRouter.get('/validate', tokenValidationMW, authController.validateToken);
 
+authRouter.post('/oauth/github', authController.githubSignIn);
+
 export default authRouter;

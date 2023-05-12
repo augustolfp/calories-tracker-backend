@@ -53,6 +53,7 @@
   "dependencies": {
     "@joi/date": "^2.1.0",
     "@prisma/client": "^4.7.0",
+    "axios": "^1.4.0",
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "dayjs": "^1.11.5",
@@ -61,6 +62,7 @@
     "express-async-errors": "^3.1.1",
     "joi": "^17.6.2",
     "jsonwebtoken": "^8.5.1",
-    "prisma": "^4.7.0"
+    "prisma": "^4.7.0",
+    "query-string": "^8.1.0"
   }
 }
