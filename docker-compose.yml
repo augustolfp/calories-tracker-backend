@@ -17,14 +17,11 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - 443:443
+      - 3000:5000
     env_file:
       - .env
-    volumes:
-      - /etc/letsencrypt/live/api.dietinha.co/:/etc/letsencrypt/live/api.dietinha.co/
     depends_on:
       - mydatabase
 
 volumes:
   pg_calories-db:
-  /etc/letsencrypt/live/api.dietinha.co/:
