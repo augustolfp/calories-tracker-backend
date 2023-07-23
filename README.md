@@ -58,7 +58,7 @@ PORT = 5000
 Execute o comando na raiz do projeto para montar as imagens do Docker:
 
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
 
 <br />
