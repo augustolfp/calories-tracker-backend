@@ -21,3 +21,7 @@ export async function validateToken(req: Request, res: Response) {
   const name = res.locals.userData.name;
   return res.status(200).send({ id, name });
 }
+
+export async function check(req: Request, res: Response) {
+  return res.status(200).send('OK');
+}

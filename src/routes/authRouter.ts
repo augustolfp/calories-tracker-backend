@@ -20,4 +20,6 @@ authRouter.post(
 
 authRouter.get('/validate', tokenValidationMW, authController.validateToken);
 
+authRouter.get('/check', authController.check);
+
 export default authRouter;
