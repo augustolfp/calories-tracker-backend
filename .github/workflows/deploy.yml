@@ -19,6 +19,7 @@ jobs:
           envkey_POSTGRES_USERNAME: ${{secrets.POSTGRES_USERNAME}}
           envkey_POSTGRES_PASSWORD: ${{secrets.POSTGRES_PASSWORD}}
           envkey_POSTGRES_DB: ${{secrets.POSTGRES_DB}}
+          envkey_URL_PATH_PREFIX: ${{secrets.URL_PATH_PREFIX}}
           envkey_PORT: ${{secrets.PORT}}
           file_name: .env
           fail_on_empty: true
