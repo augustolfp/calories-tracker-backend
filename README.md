@@ -1,5 +1,3 @@
-**:warning: Work in Progress!**
-
 <br />
 
 <h1 align='center'>DIETINHA: Back end</h1>
@@ -236,9 +234,3 @@ headers: {
 <img src='https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white' />
 
 <br />
-
-# Testes
-
-<br />
-
-# Próximos passos
